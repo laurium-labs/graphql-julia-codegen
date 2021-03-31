@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scala code generation #generateSource() should emit a package declaration when the namespace option is specified 1`] = `
+"# @generated
+# This file was automatically generated and should not be edited.
+
+const MyQueryResult_viewer = @NamedTuple begin
+  login::AbstractString
+end
+
+const MyQueryResult = @NamedTuple begin
+  viewer::MyQueryResult_viewer
+end
+"
+`;

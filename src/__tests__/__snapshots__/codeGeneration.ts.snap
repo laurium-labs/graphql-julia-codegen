@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scala code generation #classDeclarationForOperation() should generate a class declaration for a mutation with variables 1`] = `
+"# @generated
+# This file was automatically generated and should not be edited.
+
+
+# The episodes in the Star Wars trilogy
+@enum Episode NEWHOPE EMPIRE JEDI
+
+
+const CreateReviewVariables = @NamedTuple  begin
+  episode::Union{Nothing,Episode}
+end
+
+
+const CreateReviewResult_createReview = @NamedTuple begin
+  stars::Int64
+  commentary::Union{Nothing,AbstractString}
+end
+
+const CreateReviewResult = @NamedTuple begin
+  createReview::CreateReviewResult_createReview
+end
+"
+`;
+
+exports[`Scala code generation #classDeclarationForOperation() should generate a class declaration for a query with a fragment spread containing deep fields 1`] = `
+"# @generated
+# This file was automatically generated and should not be edited.
+
+const HeroResult_hero_friends = @NamedTuple begin
+  name::AbstractString
+end
+
+const HeroResult_hero = @NamedTuple begin
+  name::AbstractString
+  friends::Union{Nothing,Vector{Union{Nothing,HeroResult_hero_friends}}}
+end
+
+const HeroResult = @NamedTuple begin
+  hero::HeroResult_hero
+end
+"
+`;
+
+exports[`Scala code generation #classDeclarationForOperation() should generate a class declaration for a query with fragment spreads 1`] = `
+"# @generated
+# This file was automatically generated and should not be edited.
+
+const HeroResult_hero = @NamedTuple begin
+  name::AbstractString
+end
+
+const HeroResult = @NamedTuple begin
+  hero::HeroResult_hero
+end
+"
+`;
+
+exports[`Scala code generation #classDeclarationForOperation() should nested query 1`] = `
+"# @generated
+# This file was automatically generated and should not be edited.
+
+const HeroResult_hero_friends = @NamedTuple begin
+  name::AbstractString
+end
+
+const HeroResult_hero = @NamedTuple begin
+  name::AbstractString
+  friends::Union{Nothing,Vector{Union{Nothing,HeroResult_hero_friends}}}
+end
+
+const HeroResult = @NamedTuple begin
+  hero::HeroResult_hero
+end
+"
+`;
+
+exports[`Scala code generation #generateSource() should emit a package declaration when the namespace option is specified 1`] = `
+"# @generated
+# This file was automatically generated and should not be edited.
+
+
+# The episodes in the Star Wars trilogy
+@enum Episode NEWHOPE EMPIRE JEDI
+
+
+const HeroNameVariables = @NamedTuple  begin
+  episode::Union{Nothing,Episode}
+end
+
+
+const HeroNameResult_hero = @NamedTuple begin
+  name::AbstractString
+  appearsIn::Vector{Union{Nothing,Episode}}
+end
+
+const HeroNameResult = @NamedTuple begin
+  hero::HeroNameResult_hero
+end
+"
+`;

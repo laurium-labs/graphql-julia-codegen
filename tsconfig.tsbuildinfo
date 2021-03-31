@@ -1,0 +1,3189 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@oclif/parser/lib/args.d.ts": {
+        "version": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
+        "signature": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/parser/lib/alphabet.d.ts": {
+        "version": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca",
+        "signature": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/parser/lib/flags.d.ts": {
+        "version": "5542d2eaee8e1716293bdded02b6f3b5c13de19aaa79124d54eca6ae728676c8",
+        "signature": "5542d2eaee8e1716293bdded02b6f3b5c13de19aaa79124d54eca6ae728676c8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/parser/lib/metadata.d.ts": {
+        "version": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5",
+        "signature": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/parser/lib/parse.d.ts": {
+        "version": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635",
+        "signature": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/parser/lib/help.d.ts": {
+        "version": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba",
+        "signature": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/parser/lib/index.d.ts": {
+        "version": "0096b80854aa269e2d6cb47d7d264cf376ee27f902f71406fb09faa0288432bb",
+        "signature": "0096b80854aa269e2d6cb47d7d264cf376ee27f902f71406fb09faa0288432bb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/command.d.ts": {
+        "version": "e959961027053278d3c8bde65a01f7726697229ea3cb798b0d15ffdec888ec02",
+        "signature": "e959961027053278d3c8bde65a01f7726697229ea3cb798b0d15ffdec888ec02",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/hooks.d.ts": {
+        "version": "cfdabb68603bfcb6982f6d8afd3aaeb6ff4b257feec096e47e105368ca6eb8c7",
+        "signature": "cfdabb68603bfcb6982f6d8afd3aaeb6ff4b257feec096e47e105368ca6eb8c7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/pjson.d.ts": {
+        "version": "516f3a00079e9daa8f0fed1559a1a7729a29e29800a84962a9cf65f18b914b31",
+        "signature": "516f3a00079e9daa8f0fed1559a1a7729a29e29800a84962a9cf65f18b914b31",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/manifest.d.ts": {
+        "version": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1",
+        "signature": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/topic.d.ts": {
+        "version": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363",
+        "signature": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/plugin.d.ts": {
+        "version": "6f2a12bcdefb010863cf811f8b053ffda5cd2f92a3cea9aba63bef3a5e7474e4",
+        "signature": "6f2a12bcdefb010863cf811f8b053ffda5cd2f92a3cea9aba63bef3a5e7474e4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/config.d.ts": {
+        "version": "6a0e697b567ca52ee396cac73ed795e8e6fd0a47f7803bcad9369e1248242a05",
+        "signature": "6a0e697b567ca52ee396cac73ed795e8e6fd0a47f7803bcad9369e1248242a05",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/config/lib/index.d.ts": {
+        "version": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785",
+        "signature": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/command/lib/flags.d.ts": {
+        "version": "4a0526eb0ecf26a2d03fce5318a09d310b38235da9fa8324513a42b4298c6668",
+        "signature": "4a0526eb0ecf26a2d03fce5318a09d310b38235da9fa8324513a42b4298c6668",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts": {
+        "version": "98299f3eff3a3fafe751a30ac2fc803dcb71204fc51241dc843c9ee512698b59",
+        "signature": "98299f3eff3a3fafe751a30ac2fc803dcb71204fc51241dc843c9ee512698b59",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/errors/cli.d.ts": {
+        "version": "b6850d3a344c6155ed97f8528dd94ce5ce38357c050b41cc3a8a33018853edb6",
+        "signature": "b6850d3a344c6155ed97f8528dd94ce5ce38357c050b41cc3a8a33018853edb6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/handle.d.ts": {
+        "version": "aee649a090f5838fa2a716f29479cab3f0786858c173780fc8da6a55b6ddfeca",
+        "signature": "aee649a090f5838fa2a716f29479cab3f0786858c173780fc8da6a55b6ddfeca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/errors/exit.d.ts": {
+        "version": "7778f0c4f09b6e5f4ed62b6276bc40c93e1e1a5ac3965cd3f7fd2cb93600d86b",
+        "signature": "7778f0c4f09b6e5f4ed62b6276bc40c93e1e1a5ac3965cd3f7fd2cb93600d86b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/logger.d.ts": {
+        "version": "1b9f1ba55985edc074f18ddfe23c6c93d8463ff30651482e8783e56ca0df0653",
+        "signature": "1b9f1ba55985edc074f18ddfe23c6c93d8463ff30651482e8783e56ca0df0653",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/config.d.ts": {
+        "version": "e12f2c48252d0ae261db2be28206e4f1cc282fa5459a0f991a09f86bb766543f",
+        "signature": "e12f2c48252d0ae261db2be28206e4f1cc282fa5459a0f991a09f86bb766543f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/errors/lib/index.d.ts": {
+        "version": "c9edfd849bbf97b7dc89fc19c60622301a78eadcec309805eef028a1f8efdca8",
+        "signature": "c9edfd849bbf97b7dc89fc19c60622301a78eadcec309805eef028a1f8efdca8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/command/lib/command.d.ts": {
+        "version": "af6ccede0a15f8ad34911f1149f771daedfacd5065bbee1dc2e4e5c9a6f706d9",
+        "signature": "af6ccede0a15f8ad34911f1149f771daedfacd5065bbee1dc2e4e5c9a6f706d9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/command/lib/main.d.ts": {
+        "version": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208",
+        "signature": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@oclif/command/lib/index.d.ts": {
+        "version": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5",
+        "signature": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5",
+        "affectsGlobalScope": false
+      },
+      "./src/cli.ts": {
+        "version": "83463cdaf55e9374411be65ab9c25a0bf5f2606ae6b9221dd6d34be927e72494",
+        "signature": "5b23594f8f339d6cb7fd7c810a74675de8fea67d6cadef59a1b07b18cc33fa7c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/version.d.ts": {
+        "version": "fd179d7b68260caf075aaabe202dfd39622403405beec3c7a697dec1df338cb2",
+        "signature": "fd179d7b68260caf075aaabe202dfd39622403405beec3c7a697dec1df338cb2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/jsutils/maybe.d.ts": {
+        "version": "d086d18c6de38fff9261952724c77cfb8915e09d8e927133565f368ae3f80f6d",
+        "signature": "d086d18c6de38fff9261952724c77cfb8915e09d8e927133565f368ae3f80f6d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/source.d.ts": {
+        "version": "edd0c6bed787da0201d4dfeb44f7fc1724563ca89042e3f543bd879c433a6bdd",
+        "signature": "edd0c6bed787da0201d4dfeb44f7fc1724563ca89042e3f543bd879c433a6bdd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/tokenkind.d.ts": {
+        "version": "4a1545bdbccec0209a67da02f760fad629deedbe7d8ac9f55c93c82f95ff5449",
+        "signature": "4a1545bdbccec0209a67da02f760fad629deedbe7d8ac9f55c93c82f95ff5449",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/ast.d.ts": {
+        "version": "7b52c21bd6397ca26df3b7863fa2d5014aa4bbf5621377769726bbd59956e6bc",
+        "signature": "7b52c21bd6397ca26df3b7863fa2d5014aa4bbf5621377769726bbd59956e6bc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/directivelocation.d.ts": {
+        "version": "6b93d6b362ef33a455a7852f7891a6023a8a2bbb03a81cf84bb0f2b627673148",
+        "signature": "6b93d6b362ef33a455a7852f7891a6023a8a2bbb03a81cf84bb0f2b627673148",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/jsutils/promiseorvalue.d.ts": {
+        "version": "641b9da0622e0225740b5a55f47af9f23f01bf8f4dcbfb81128c16b585900717",
+        "signature": "641b9da0622e0225740b5a55f47af9f23f01bf8f4dcbfb81128c16b585900717",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/jsutils/path.d.ts": {
+        "version": "5534c99590ae8b633509d9e4d2e1a7bf6511cb7fd1710c36d7723c2f9486aeba",
+        "signature": "5534c99590ae8b633509d9e4d2e1a7bf6511cb7fd1710c36d7723c2f9486aeba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/definition.d.ts": {
+        "version": "f85a2cb14b6097b181f0cc5fdaed1abd3d40ba6bc90d2cf7903f8803e8deeb76",
+        "signature": "f85a2cb14b6097b181f0cc5fdaed1abd3d40ba6bc90d2cf7903f8803e8deeb76",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/directives.d.ts": {
+        "version": "3ace48f46b43fec335799729ecba491fba8478ef911bbaba4e64ae91ac284082",
+        "signature": "3ace48f46b43fec335799729ecba491fba8478ef911bbaba4e64ae91ac284082",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/schema.d.ts": {
+        "version": "0da6adbb172817b7101eb1fc5a93310d5b140ac7c3678e3f8891d6177d1f2ce8",
+        "signature": "0da6adbb172817b7101eb1fc5a93310d5b140ac7c3678e3f8891d6177d1f2ce8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/location.d.ts": {
+        "version": "95210bf2a09475e9e19fe532fdc2562dced3536fc50f92aad88466950ff11160",
+        "signature": "95210bf2a09475e9e19fe532fdc2562dced3536fc50f92aad88466950ff11160",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/error/graphqlerror.d.ts": {
+        "version": "4fe16f53f63c3fe82903afe4db25c276097b092592c36d4a37b33f04007da5d1",
+        "signature": "4fe16f53f63c3fe82903afe4db25c276097b092592c36d4a37b33f04007da5d1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/execution/execute.d.ts": {
+        "version": "6533f35321a5f21f1aa5f8d4f509827d980ca10917bf840d4c522c07529bfdfd",
+        "signature": "6533f35321a5f21f1aa5f8d4f509827d980ca10917bf840d4c522c07529bfdfd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/graphql.d.ts": {
+        "version": "70055bc7cbe14541919f4b9e4c488b31cc901fa8defa32827ca3ba955a409762",
+        "signature": "70055bc7cbe14541919f4b9e4c488b31cc901fa8defa32827ca3ba955a409762",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/scalars.d.ts": {
+        "version": "155dc0abafc201d20cb2c4c54d631e13cf286f5a757fff975dc2dd7e196380fe",
+        "signature": "155dc0abafc201d20cb2c4c54d631e13cf286f5a757fff975dc2dd7e196380fe",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/introspection.d.ts": {
+        "version": "256eb1263ff0eae669dd39371245c70e082437ebd01dac855dda8ef5bc5a1330",
+        "signature": "256eb1263ff0eae669dd39371245c70e082437ebd01dac855dda8ef5bc5a1330",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/validate.d.ts": {
+        "version": "b56adcca0e4ea4e2ff1a527006c90a7eecf5c0637f10b7232d5a6ffb40e1a47e",
+        "signature": "b56adcca0e4ea4e2ff1a527006c90a7eecf5c0637f10b7232d5a6ffb40e1a47e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/type/index.d.ts": {
+        "version": "9792450af532e4607ef025ab4f224ec396907c1587866251fd529214abb94768",
+        "signature": "9792450af532e4607ef025ab4f224ec396907c1587866251fd529214abb94768",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/printlocation.d.ts": {
+        "version": "3084564f4782aacb5f60dee152f260a73b7ec7093432626814d019d2f871b1e9",
+        "signature": "3084564f4782aacb5f60dee152f260a73b7ec7093432626814d019d2f871b1e9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/kinds.d.ts": {
+        "version": "67aaa92c35872e8ac9ca6092e0010db368656740e28e4486c2cf8064e536d057",
+        "signature": "67aaa92c35872e8ac9ca6092e0010db368656740e28e4486c2cf8064e536d057",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/lexer.d.ts": {
+        "version": "04b00c8e04b88f9dd0aefaec6b8c42fa4d1ffdfd9a73131cb6d96b185978d536",
+        "signature": "04b00c8e04b88f9dd0aefaec6b8c42fa4d1ffdfd9a73131cb6d96b185978d536",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/parser.d.ts": {
+        "version": "5b59d7f8a9a7eef376889b23bc5ae20c3bcbb42e7e2fb3356388e5050ab8b4e3",
+        "signature": "5b59d7f8a9a7eef376889b23bc5ae20c3bcbb42e7e2fb3356388e5050ab8b4e3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/printer.d.ts": {
+        "version": "1d8dc736a80d377b4ce3b78568038c796485e604cb9c5c664ac5718a5fb63c41",
+        "signature": "1d8dc736a80d377b4ce3b78568038c796485e604cb9c5c664ac5718a5fb63c41",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/visitor.d.ts": {
+        "version": "2be27133da2990e0808b6100a3fc7fe972e82a483e8f5d1723919cedfd8ddc6b",
+        "signature": "2be27133da2990e0808b6100a3fc7fe972e82a483e8f5d1723919cedfd8ddc6b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/predicates.d.ts": {
+        "version": "1a1cfc77cc8eb4bf26f01d2da8059920873646a67cb359e41d5b0842cd423271",
+        "signature": "1a1cfc77cc8eb4bf26f01d2da8059920873646a67cb359e41d5b0842cd423271",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/language/index.d.ts": {
+        "version": "2ee96c10d1e56ef71c1581e6dee7050bb04055afdcf4e9070ae9209106cac08e",
+        "signature": "2ee96c10d1e56ef71c1581e6dee7050bb04055afdcf4e9070ae9209106cac08e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/execution/values.d.ts": {
+        "version": "2626836cf152b2231a1d800779a594695b029c19bd49a150e5e994f788a8d9e1",
+        "signature": "2626836cf152b2231a1d800779a594695b029c19bd49a150e5e994f788a8d9e1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/execution/index.d.ts": {
+        "version": "753d30fc13a18f504748de9f82aaa8d8dca02ffe54e4a08080676bd7e4b5a891",
+        "signature": "753d30fc13a18f504748de9f82aaa8d8dca02ffe54e4a08080676bd7e4b5a891",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/subscription/subscribe.d.ts": {
+        "version": "9fce90d4533619eb5754806401668fa487fbdf0efeeb30c43299aef5a0b5c552",
+        "signature": "9fce90d4533619eb5754806401668fa487fbdf0efeeb30c43299aef5a0b5c552",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/subscription/index.d.ts": {
+        "version": "a0aba12f2b210e2151aa6ff772c4c0e1115d437306e1942d7b71f0b45c48ccf3",
+        "signature": "a0aba12f2b210e2151aa6ff772c4c0e1115d437306e1942d7b71f0b45c48ccf3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/typeinfo.d.ts": {
+        "version": "3b59126bda683d0720973054280a28f57af77498b081985b15779fe85dc96f77",
+        "signature": "3b59126bda683d0720973054280a28f57af77498b081985b15779fe85dc96f77",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/validationcontext.d.ts": {
+        "version": "fadd926f5d4644bf9e3161c69104c9f5246e5a5cffbf9076399c3b086ee7f0d3",
+        "signature": "fadd926f5d4644bf9e3161c69104c9f5246e5a5cffbf9076399c3b086ee7f0d3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/validate.d.ts": {
+        "version": "da2266dd4ecebf71026539d95e36674563a06f869a53ae8e837d512161013dee",
+        "signature": "da2266dd4ecebf71026539d95e36674563a06f869a53ae8e837d512161013dee",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/specifiedrules.d.ts": {
+        "version": "e4b3c4ec3ccd3fbe8ed62f6eb3b39c9f0ad574a35eafd1a31077c1e8dd29e93d",
+        "signature": "e4b3c4ec3ccd3fbe8ed62f6eb3b39c9f0ad574a35eafd1a31077c1e8dd29e93d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/executabledefinitionsrule.d.ts": {
+        "version": "4dbbbf7f7b59aa88c2dda60aed5a06c5a57f29b6f931f70ac53bf6cc8aac1cef",
+        "signature": "4dbbbf7f7b59aa88c2dda60aed5a06c5a57f29b6f931f70ac53bf6cc8aac1cef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/fieldsoncorrecttyperule.d.ts": {
+        "version": "8da32928f6184ecfa071cb9aac8e886a640ec68000d72b1fc47a85b5778bdbba",
+        "signature": "8da32928f6184ecfa071cb9aac8e886a640ec68000d72b1fc47a85b5778bdbba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/fragmentsoncompositetypesrule.d.ts": {
+        "version": "c737d79aaa58f7b5225de26005f12cbfeb60d6e1c0799df85c372a5b3498b313",
+        "signature": "c737d79aaa58f7b5225de26005f12cbfeb60d6e1c0799df85c372a5b3498b313",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/knownargumentnamesrule.d.ts": {
+        "version": "ccb092565dcf7e8e9eb07dabe8f77a257bb18d10745b78f09501a2826f0b9f7e",
+        "signature": "ccb092565dcf7e8e9eb07dabe8f77a257bb18d10745b78f09501a2826f0b9f7e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/knowndirectivesrule.d.ts": {
+        "version": "50001c90059bbb2d06aabb16ad94b44a9a3dbd0b76a7ad1fbceef53c67ed67ff",
+        "signature": "50001c90059bbb2d06aabb16ad94b44a9a3dbd0b76a7ad1fbceef53c67ed67ff",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/knownfragmentnamesrule.d.ts": {
+        "version": "103cc813c979b72c032d57fd398bb8a7de019c009a0cd8968f90f149a21c7b09",
+        "signature": "103cc813c979b72c032d57fd398bb8a7de019c009a0cd8968f90f149a21c7b09",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/knowntypenamesrule.d.ts": {
+        "version": "85aeedbb5aaee4ebb373587871ef070586a3b76eedd345db9dfba6b76bb3d7c0",
+        "signature": "85aeedbb5aaee4ebb373587871ef070586a3b76eedd345db9dfba6b76bb3d7c0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/loneanonymousoperationrule.d.ts": {
+        "version": "9fa580d16a5b066442f16778c2846ee169e7ba421f45cd841bcf6d44495b9b13",
+        "signature": "9fa580d16a5b066442f16778c2846ee169e7ba421f45cd841bcf6d44495b9b13",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/nofragmentcyclesrule.d.ts": {
+        "version": "9cec7eef215c0e9a903104033b96bd6c14fb71dc8b6084c81c869c39acb84101",
+        "signature": "9cec7eef215c0e9a903104033b96bd6c14fb71dc8b6084c81c869c39acb84101",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/noundefinedvariablesrule.d.ts": {
+        "version": "d204930d40cace62928e7318026791c1e0cef281a06eabde7a98ddddf57154dc",
+        "signature": "d204930d40cace62928e7318026791c1e0cef281a06eabde7a98ddddf57154dc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/nounusedfragmentsrule.d.ts": {
+        "version": "f96b8ea264d72de393165690a473893934773a21cbc29ebadf22a2bbb2e64df2",
+        "signature": "f96b8ea264d72de393165690a473893934773a21cbc29ebadf22a2bbb2e64df2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/nounusedvariablesrule.d.ts": {
+        "version": "d2bb51b12f0a2f927774a9a9affed26f0cd925f440f2352c833c55f695b65890",
+        "signature": "d2bb51b12f0a2f927774a9a9affed26f0cd925f440f2352c833c55f695b65890",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/overlappingfieldscanbemergedrule.d.ts": {
+        "version": "239689e40d3935cd4f340798982febacca88f44ca353b503f654ccb4233370fb",
+        "signature": "239689e40d3935cd4f340798982febacca88f44ca353b503f654ccb4233370fb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/possiblefragmentspreadsrule.d.ts": {
+        "version": "19d4b8c121977c1ea5ad800579d5a4a69007796faa9a547add76a6e94ab91ab4",
+        "signature": "19d4b8c121977c1ea5ad800579d5a4a69007796faa9a547add76a6e94ab91ab4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/providedrequiredargumentsrule.d.ts": {
+        "version": "c70f356c83e8167cd33cc119e908d1d32a9736e8b9f130f8d88fd0d9d498831a",
+        "signature": "c70f356c83e8167cd33cc119e908d1d32a9736e8b9f130f8d88fd0d9d498831a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/scalarleafsrule.d.ts": {
+        "version": "eb9d456c9ba78783d6044925a34d2edcc4ab519bc366e5b42f82fa714eb3d6ae",
+        "signature": "eb9d456c9ba78783d6044925a34d2edcc4ab519bc366e5b42f82fa714eb3d6ae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/singlefieldsubscriptionsrule.d.ts": {
+        "version": "434ac011dacc3b2659595fbc0555800dd725e626b29cc83292abdb6517262e32",
+        "signature": "434ac011dacc3b2659595fbc0555800dd725e626b29cc83292abdb6517262e32",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniqueargumentnamesrule.d.ts": {
+        "version": "520da364d225aa51b0e7b7adb8fd1a7489a6f680f4bb37ca573024147de84100",
+        "signature": "520da364d225aa51b0e7b7adb8fd1a7489a6f680f4bb37ca573024147de84100",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniquedirectivesperlocationrule.d.ts": {
+        "version": "aca1a7376ae8f37e0c2b9447633196e3e1671371193451bae8c1ff09e58bad1a",
+        "signature": "aca1a7376ae8f37e0c2b9447633196e3e1671371193451bae8c1ff09e58bad1a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniquefragmentnamesrule.d.ts": {
+        "version": "c1c25d86e86ac79472059cf4249b20e04e36f06ead16296a78df76561c9ab59d",
+        "signature": "c1c25d86e86ac79472059cf4249b20e04e36f06ead16296a78df76561c9ab59d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniqueinputfieldnamesrule.d.ts": {
+        "version": "c766a7f306fa53af2dacface548cb9590202209e19cd8677febbd66261837a7a",
+        "signature": "c766a7f306fa53af2dacface548cb9590202209e19cd8677febbd66261837a7a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniqueoperationnamesrule.d.ts": {
+        "version": "8c403008299cb52d4fb675e9a4cd732a52f1c4c39dba4b2d33a197192c343ea5",
+        "signature": "8c403008299cb52d4fb675e9a4cd732a52f1c4c39dba4b2d33a197192c343ea5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniquevariablenamesrule.d.ts": {
+        "version": "c37bf53cf0701fedc43913d79405dcab26450c5aa8afe8bd1b2b4a049da748ae",
+        "signature": "c37bf53cf0701fedc43913d79405dcab26450c5aa8afe8bd1b2b4a049da748ae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/valuesofcorrecttyperule.d.ts": {
+        "version": "ebb6dcacb4caa1f40b085fda697f84860fcb74cf3bbb15d5a4f5e0dc27edc6c8",
+        "signature": "ebb6dcacb4caa1f40b085fda697f84860fcb74cf3bbb15d5a4f5e0dc27edc6c8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/variablesareinputtypesrule.d.ts": {
+        "version": "5191da1f2d2e5d8aa799ec10e571e434dc544e9a3e600eeb7dce881f88c3146a",
+        "signature": "5191da1f2d2e5d8aa799ec10e571e434dc544e9a3e600eeb7dce881f88c3146a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/variablesinallowedpositionrule.d.ts": {
+        "version": "ecf8bb458fd8aa581d044827f214f4c108bd93a32140bd2ed29ca6f2af1bf72f",
+        "signature": "ecf8bb458fd8aa581d044827f214f4c108bd93a32140bd2ed29ca6f2af1bf72f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/loneschemadefinitionrule.d.ts": {
+        "version": "544e42686ffda36f20b22830f1c1ae966ab1ba4b1f1e6bc68dc6c51d2ace867b",
+        "signature": "544e42686ffda36f20b22830f1c1ae966ab1ba4b1f1e6bc68dc6c51d2ace867b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniqueoperationtypesrule.d.ts": {
+        "version": "19e18f2211b420eef79412c0bc407119617a7e7699af24d3c70d7d88ee14b2c2",
+        "signature": "19e18f2211b420eef79412c0bc407119617a7e7699af24d3c70d7d88ee14b2c2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniquetypenamesrule.d.ts": {
+        "version": "57eb3245f592f2382e2f79b5bdcd3684ba5a21bc0b411de82ef8101284aeb213",
+        "signature": "57eb3245f592f2382e2f79b5bdcd3684ba5a21bc0b411de82ef8101284aeb213",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniqueenumvaluenamesrule.d.ts": {
+        "version": "74e6286c0c9e2336ac18e6103a82e90a781985604418ff37a695bf9e91148577",
+        "signature": "74e6286c0c9e2336ac18e6103a82e90a781985604418ff37a695bf9e91148577",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniquefielddefinitionnamesrule.d.ts": {
+        "version": "53b7b0ad34feb6667b7aa137afb2f87316e8eb2c15d6327355353224fe47b55b",
+        "signature": "53b7b0ad34feb6667b7aa137afb2f87316e8eb2c15d6327355353224fe47b55b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/uniquedirectivenamesrule.d.ts": {
+        "version": "5b581648b2a40a6f970cd938b57270e5e2febf41bfb2813d3176a4ccd9e8fcd5",
+        "signature": "5b581648b2a40a6f970cd938b57270e5e2febf41bfb2813d3176a4ccd9e8fcd5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/possibletypeextensionsrule.d.ts": {
+        "version": "e74d4b1989725bbdd6ba672055b4e769d3eb90f294d99a683997d1fa6dd3cad5",
+        "signature": "e74d4b1989725bbdd6ba672055b4e769d3eb90f294d99a683997d1fa6dd3cad5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/custom/nodeprecatedcustomrule.d.ts": {
+        "version": "04017eca924a3c90094ebc57fdc0d60d1c37a8592c988af07926e341fe91fc0b",
+        "signature": "04017eca924a3c90094ebc57fdc0d60d1c37a8592c988af07926e341fe91fc0b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/rules/custom/noschemaintrospectioncustomrule.d.ts": {
+        "version": "08b1e0a48d64af7ea99e7911db1a540ebcfef468b4a62c589c40e2de630d786e",
+        "signature": "08b1e0a48d64af7ea99e7911db1a540ebcfef468b4a62c589c40e2de630d786e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/validation/index.d.ts": {
+        "version": "f473e9a749dd87ab056d387c4454faba9d21c921b744afbcf9b989043273d44f",
+        "signature": "f473e9a749dd87ab056d387c4454faba9d21c921b744afbcf9b989043273d44f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/error/syntaxerror.d.ts": {
+        "version": "cd674d3401bf5b290da4a5e31890305ba67a378b2c01aa8da6ac73feb0685f50",
+        "signature": "cd674d3401bf5b290da4a5e31890305ba67a378b2c01aa8da6ac73feb0685f50",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/error/locatederror.d.ts": {
+        "version": "9b600dbf693b874e3d26c17a781558fc2ea2dfd03684d86ba879bff83e017beb",
+        "signature": "9b600dbf693b874e3d26c17a781558fc2ea2dfd03684d86ba879bff83e017beb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/error/formaterror.d.ts": {
+        "version": "032aa0bbc88640270f29cfee50f0857ebd903dee14626eb9ec52043d75765173",
+        "signature": "032aa0bbc88640270f29cfee50f0857ebd903dee14626eb9ec52043d75765173",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/error/index.d.ts": {
+        "version": "5f115c795a0a8e5ad69d9bdbce5ecf46d53e324f593d545700c86278f7de72a0",
+        "signature": "5f115c795a0a8e5ad69d9bdbce5ecf46d53e324f593d545700c86278f7de72a0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/getintrospectionquery.d.ts": {
+        "version": "4cd34df1de8210f887dba896193b02fc5e35561511a64432a64706bb17d6e847",
+        "signature": "4cd34df1de8210f887dba896193b02fc5e35561511a64432a64706bb17d6e847",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/getoperationast.d.ts": {
+        "version": "9ef452a63549b5d29f8c0a8ad8af73e33d23f388b9f34992b8ea9b8c80e2e219",
+        "signature": "9ef452a63549b5d29f8c0a8ad8af73e33d23f388b9f34992b8ea9b8c80e2e219",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/getoperationroottype.d.ts": {
+        "version": "44faba923fbff252b227ab2222946cc55ab7a8d2c941e56afa7d5f4dc38bebbc",
+        "signature": "44faba923fbff252b227ab2222946cc55ab7a8d2c941e56afa7d5f4dc38bebbc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/introspectionfromschema.d.ts": {
+        "version": "005605697e492ea72f9fc309fa31ee8587e0478bbfc9bb72676559dab2f39339",
+        "signature": "005605697e492ea72f9fc309fa31ee8587e0478bbfc9bb72676559dab2f39339",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/buildclientschema.d.ts": {
+        "version": "a1c1195f9dd70a8de22947a275074d1c30571c61f762518291e748a7e644ac9e",
+        "signature": "a1c1195f9dd70a8de22947a275074d1c30571c61f762518291e748a7e644ac9e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/buildastschema.d.ts": {
+        "version": "f2949ec3b920d10267dff3f4803b3db920f81401182af62740a41e76cc26d8f6",
+        "signature": "f2949ec3b920d10267dff3f4803b3db920f81401182af62740a41e76cc26d8f6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/extendschema.d.ts": {
+        "version": "23cfdfc12051eef1bddaff6d95cbda090174b36fb105c7d263acdadb76da1577",
+        "signature": "23cfdfc12051eef1bddaff6d95cbda090174b36fb105c7d263acdadb76da1577",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/lexicographicsortschema.d.ts": {
+        "version": "ffee2f0960a86ceada047cffc3404363bf9e7783e30848199c4d90cb210123dd",
+        "signature": "ffee2f0960a86ceada047cffc3404363bf9e7783e30848199c4d90cb210123dd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/printschema.d.ts": {
+        "version": "e004995dfdf9fd1a97f47cdc6b74ba0f1da186736eac03c6856412661ac6a6d4",
+        "signature": "e004995dfdf9fd1a97f47cdc6b74ba0f1da186736eac03c6856412661ac6a6d4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/typefromast.d.ts": {
+        "version": "36a29c4843b36ccf4b6f0ed12763414a3516f0176563747b99c016ab3a570922",
+        "signature": "36a29c4843b36ccf4b6f0ed12763414a3516f0176563747b99c016ab3a570922",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/valuefromast.d.ts": {
+        "version": "8ce2616be99a635b1346deef302d68969006b044fc82d6992abb432a4956dc6a",
+        "signature": "8ce2616be99a635b1346deef302d68969006b044fc82d6992abb432a4956dc6a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/valuefromastuntyped.d.ts": {
+        "version": "ad73903fb76951a5cd4c4e91d9eed60fb9b0114b1477c2da5c55691dd78cdfe6",
+        "signature": "ad73903fb76951a5cd4c4e91d9eed60fb9b0114b1477c2da5c55691dd78cdfe6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/astfromvalue.d.ts": {
+        "version": "9db5c31039049a999fe86ec606d07f9fe0074cf9289400c8f7a5f7ffb5719e9f",
+        "signature": "9db5c31039049a999fe86ec606d07f9fe0074cf9289400c8f7a5f7ffb5719e9f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/coerceinputvalue.d.ts": {
+        "version": "ccd23805724c86c86eccc2a73e9f1438c7b0a6e08647c0f54f6c2b3f505026a5",
+        "signature": "ccd23805724c86c86eccc2a73e9f1438c7b0a6e08647c0f54f6c2b3f505026a5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/concatast.d.ts": {
+        "version": "101c66c0a04753be2f1604483f98e1f072d1a95418345d3a7593de7ddfd92fc9",
+        "signature": "101c66c0a04753be2f1604483f98e1f072d1a95418345d3a7593de7ddfd92fc9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/separateoperations.d.ts": {
+        "version": "ec007e489e7403a1b46f85392a94fef09533a2bb12f9b98e9d433871aac66b5a",
+        "signature": "ec007e489e7403a1b46f85392a94fef09533a2bb12f9b98e9d433871aac66b5a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/stripignoredcharacters.d.ts": {
+        "version": "8b26b547fc41921b66353c05c2dbdbdb1dc8d0b60a9ea60f912787818bb9c42c",
+        "signature": "8b26b547fc41921b66353c05c2dbdbdb1dc8d0b60a9ea60f912787818bb9c42c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/typecomparators.d.ts": {
+        "version": "dbce3e1a32c2696ee8f056b92d2442fc0370f7e3d8d95dddc88cdc8d3ca03454",
+        "signature": "dbce3e1a32c2696ee8f056b92d2442fc0370f7e3d8d95dddc88cdc8d3ca03454",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/assertvalidname.d.ts": {
+        "version": "15ac98e72a64754e1a2c673e630f0c3e6dc163ec18ebf326f7f88f45bb80f526",
+        "signature": "15ac98e72a64754e1a2c673e630f0c3e6dc163ec18ebf326f7f88f45bb80f526",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/findbreakingchanges.d.ts": {
+        "version": "e4188659bc53e80d6c46cf76e5bdc2968a137166f1e5a853088fc6a0aed4f52b",
+        "signature": "e4188659bc53e80d6c46cf76e5bdc2968a137166f1e5a853088fc6a0aed4f52b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/finddeprecatedusages.d.ts": {
+        "version": "85968e53cc97754877d8b409ca3815b1c0f1c4317d41d47b7975a31e8f3a5bf4",
+        "signature": "85968e53cc97754877d8b409ca3815b1c0f1c4317d41d47b7975a31e8f3a5bf4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/utilities/index.d.ts": {
+        "version": "b75fabf593cdf45fc87043ec7b3775d3fcb304354619e2488c7b72c4a49e7315",
+        "signature": "b75fabf593cdf45fc87043ec7b3775d3fcb304354619e2488c7b72c4a49e7315",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/graphql/index.d.ts": {
+        "version": "bd898ed6061d82373dbd5a71e02c20c06543e7464689920bba987710b21b130b",
+        "signature": "bd898ed6061d82373dbd5a71e02c20c06543e7464689920bba987710b21b130b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/apollo-codegen-core/lib/utilities/graphql.d.ts": {
+        "version": "99a706dca9e6eabbcca90252debad8e7c2c88e86320a6b2ce47674afca3ebba7",
+        "signature": "99a706dca9e6eabbcca90252debad8e7c2c88e86320a6b2ce47674afca3ebba7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/apollo-codegen-core/lib/utilities/printing.d.ts": {
+        "version": "f3f863955730201c84d01963bdcbc7288674f78a0441d2b590a861def83419ae",
+        "signature": "f3f863955730201c84d01963bdcbc7288674f78a0441d2b590a861def83419ae",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/apollo-codegen-core/lib/utilities/codegenerator.d.ts": {
+        "version": "3e4c9d1035e4ee7969c84220f07d78b7f3fdff712840daf10851e6f9fb352304",
+        "signature": "3e4c9d1035e4ee7969c84220f07d78b7f3fdff712840daf10851e6f9fb352304",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/apollo-codegen-core/lib/utilities/array.d.ts": {
+        "version": "1e86729c976aacc68987da5be5eaf3e680c29f099a0aa193cbb6e27847cb0849",
+        "signature": "1e86729c976aacc68987da5be5eaf3e680c29f099a0aa193cbb6e27847cb0849",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts": {
+        "version": "5c3ff4d3d015eb98ee4acaa79612d53e7be1ed3885ada44fa547a2c288977100",
+        "signature": "5c3ff4d3d015eb98ee4acaa79612d53e7be1ed3885ada44fa547a2c288977100",
+        "affectsGlobalScope": false
+      },
+      "./src/language.ts": {
+        "version": "09b89d73b6a50df490f0bea78cb77a7842678d832334e3853fe0d85a7a3d6b8b",
+        "signature": "b38792d3938886adf56c881669697ad649bf82fd6e47d427ef26e0663dc87f93",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/no-case/dist/index.d.ts": {
+        "version": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
+        "signature": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/pascal-case/dist/index.d.ts": {
+        "version": "f86c04a744ebcede96bac376f9a2c90f2bd3c422740d91dda4ca6233199d4977",
+        "signature": "f86c04a744ebcede96bac376f9a2c90f2bd3c422740d91dda4ca6233199d4977",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/camel-case/dist/index.d.ts": {
+        "version": "6ae1bddee5c790439bd992abd063b9b46e0cadd676c2a8562268d1869213ff60",
+        "signature": "6ae1bddee5c790439bd992abd063b9b46e0cadd676c2a8562268d1869213ff60",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts": {
+        "version": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
+        "signature": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/capital-case/dist/index.d.ts": {
+        "version": "606244fc97a6a74b877f2e924ba7e55b233bc6acb57d7bf40ba84a5be2d9adb0",
+        "signature": "606244fc97a6a74b877f2e924ba7e55b233bc6acb57d7bf40ba84a5be2d9adb0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/constant-case/dist/index.d.ts": {
+        "version": "4a1cabac71036b8a14f5db1b753b579f0c901c7d7b9227e6872dadf6efb104e8",
+        "signature": "4a1cabac71036b8a14f5db1b753b579f0c901c7d7b9227e6872dadf6efb104e8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/dot-case/dist/index.d.ts": {
+        "version": "062959a1d825b96639d87be35fe497cbd3f89544bf06fdad577bbfb85fcf604c",
+        "signature": "062959a1d825b96639d87be35fe497cbd3f89544bf06fdad577bbfb85fcf604c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/header-case/dist/index.d.ts": {
+        "version": "4c3672dc8f4e4fdd3d18525b22b31f1b5481f5a415db96550d3ac5163a6c3dd3",
+        "signature": "4c3672dc8f4e4fdd3d18525b22b31f1b5481f5a415db96550d3ac5163a6c3dd3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/param-case/dist/index.d.ts": {
+        "version": "f9a69ca445010b91fe08f08c06e0f86d79c0d776905f9bdb828477cb2a1eb7fc",
+        "signature": "f9a69ca445010b91fe08f08c06e0f86d79c0d776905f9bdb828477cb2a1eb7fc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/path-case/dist/index.d.ts": {
+        "version": "ad7fd0e7ee457d4884b3aaecbcbd2a80b6803407c4ce2540c296170d4c7918ef",
+        "signature": "ad7fd0e7ee457d4884b3aaecbcbd2a80b6803407c4ce2540c296170d4c7918ef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/sentence-case/dist/index.d.ts": {
+        "version": "a50ef21605f41c6acad6c3ef0307e5311b94963c846ca093c764b80cdb5318d6",
+        "signature": "a50ef21605f41c6acad6c3ef0307e5311b94963c846ca093c764b80cdb5318d6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/snake-case/dist/index.d.ts": {
+        "version": "74b4035dd26d09a417c44ca23ab5ee69b173f8c2f6b2e47350ab0795cf2d4a17",
+        "signature": "74b4035dd26d09a417c44ca23ab5ee69b173f8c2f6b2e47350ab0795cf2d4a17",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/change-case/dist/index.d.ts": {
+        "version": "918f86ee2b19cc38cb8b1a4cf8f223eb228aaa39df3604c42f700fac2f0b3ea1",
+        "signature": "918f86ee2b19cc38cb8b1a4cf8f223eb228aaa39df3604c42f700fac2f0b3ea1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/inflected/index.d.ts": {
+        "version": "af9c5af1f599bf1e5b747cfb9ea2905f1efd64755ec4647108c24f49bbb4281f",
+        "signature": "af9c5af1f599bf1e5b747cfb9ea2905f1efd64755ec4647108c24f49bbb4281f",
+        "affectsGlobalScope": false
+      },
+      "./src/types.ts": {
+        "version": "acc2fba8993b6d3d0bdcb7b926dc5e752d04e589145cd0302a4726fbaf026d65",
+        "signature": "7133b47b8d5341b2effe93c2eede9f8235ddd5f4bae0203be7945ce91529a93d",
+        "affectsGlobalScope": false
+      },
+      "./src/naming.ts": {
+        "version": "cab82f23f611156e76c974a63d852bbf5d1c2d5ccd673ab0023fc46f6e92a8ef",
+        "signature": "e0e8c7c7d38c95a53794e87dd3b47677f5560597baca01b33c91330e596af614",
+        "affectsGlobalScope": false
+      },
+      "./src/values.ts": {
+        "version": "c30c1bebfb48a7d55e91385df02b4cd19184fe8e1abbb53f473da38362fac385",
+        "signature": "b1ef964fd83fef48559dc63a86a83d57e89902ae96313f953e26305ba28b24f8",
+        "affectsGlobalScope": false
+      },
+      "./src/codegeneration.ts": {
+        "version": "9f9955c29961bbea21b216bb4c42c379c84d5e004d528cbcda0c2e5b496eb027",
+        "signature": "9554bc129633c16cefebf57c27d3d56f54c18a519c8f5198f7770a43edb37902",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "2614c64301c02a2f43e83120bba9cd14989449f5fca327b09b436f5cac57be8d",
+        "signature": "f676203f2250c0dda79590344814825a286922d370a966248b09eb670200cf5c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/globals.d.ts": {
+        "version": "25b4a0c4fab47c373ee49df4c239826ee3430019fc0c1b5e59edc3e398b7468d",
+        "signature": "25b4a0c4fab47c373ee49df4c239826ee3430019fc0c1b5e59edc3e398b7468d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/async_hooks.d.ts": {
+        "version": "d20f08527645f62facb2d66c2b7bd31ea964b59c897d00bddb1efe8c13890b72",
+        "signature": "d20f08527645f62facb2d66c2b7bd31ea964b59c897d00bddb1efe8c13890b72",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/buffer.d.ts": {
+        "version": "5726b5ce952dc5beaeb08d5f64236632501568a54a390363d2339ba1dc5393b1",
+        "signature": "5726b5ce952dc5beaeb08d5f64236632501568a54a390363d2339ba1dc5393b1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/child_process.d.ts": {
+        "version": "674bedbfd2004e233e2a266a3d2286e524f0d58787a98522d834d6ccda1d215a",
+        "signature": "674bedbfd2004e233e2a266a3d2286e524f0d58787a98522d834d6ccda1d215a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/cluster.d.ts": {
+        "version": "714637d594e1a38a075091fe464ca91c6abc0b154784b4287f6883200e28ccef",
+        "signature": "714637d594e1a38a075091fe464ca91c6abc0b154784b4287f6883200e28ccef",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/console.d.ts": {
+        "version": "23edba5f47d3409810c563fe8034ae2c59e718e1ef8570f4152ccdde1915a096",
+        "signature": "23edba5f47d3409810c563fe8034ae2c59e718e1ef8570f4152ccdde1915a096",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/constants.d.ts": {
+        "version": "0e9c55f894ca2d9cf63b5b0d43a8cec1772dd560233fd16275bc7a485eb82f83",
+        "signature": "0e9c55f894ca2d9cf63b5b0d43a8cec1772dd560233fd16275bc7a485eb82f83",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/crypto.d.ts": {
+        "version": "d53b352a01645c470a0d8c31bf290ba791fc28ade0ce187a4a50f5c2f826f75e",
+        "signature": "d53b352a01645c470a0d8c31bf290ba791fc28ade0ce187a4a50f5c2f826f75e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/dgram.d.ts": {
+        "version": "5f0a09de75bd965c21dc6d73671ba88830272f9ed62897bb0aa9754b369b1eed",
+        "signature": "5f0a09de75bd965c21dc6d73671ba88830272f9ed62897bb0aa9754b369b1eed",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/dns.d.ts": {
+        "version": "2b34e7fcba9e1f24e7f54ba5c8be5a8895b0b8b444ccf6548e04acdee0899317",
+        "signature": "2b34e7fcba9e1f24e7f54ba5c8be5a8895b0b8b444ccf6548e04acdee0899317",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/domain.d.ts": {
+        "version": "06d2be99c3dd2ff52114d02ee443ba486ab482423df1941d3c97d6a92e924d70",
+        "signature": "06d2be99c3dd2ff52114d02ee443ba486ab482423df1941d3c97d6a92e924d70",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/events.d.ts": {
+        "version": "bfd4f140c07091b5e8a963c89e6fa3f44b6cfcbc11471b465cf63e2d020ad0eb",
+        "signature": "bfd4f140c07091b5e8a963c89e6fa3f44b6cfcbc11471b465cf63e2d020ad0eb",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/fs.d.ts": {
+        "version": "a106a0bea088b70879ac88ff606dc253c0cc474ea05ad3a282b8bfb1091ae576",
+        "signature": "a106a0bea088b70879ac88ff606dc253c0cc474ea05ad3a282b8bfb1091ae576",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/fs/promises.d.ts": {
+        "version": "c98ce957db9eebd75f53edda3f6893e05ab2d2283b5667b18e31bcdb6427ed10",
+        "signature": "c98ce957db9eebd75f53edda3f6893e05ab2d2283b5667b18e31bcdb6427ed10",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/http.d.ts": {
+        "version": "1f08bd8305d4a789a68f71ab622156dfff993aa51a2aa58b9ccf166cc6f9fcf7",
+        "signature": "1f08bd8305d4a789a68f71ab622156dfff993aa51a2aa58b9ccf166cc6f9fcf7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/http2.d.ts": {
+        "version": "9aff68f1b847b846d3d50a58c9f8f99389bedd0258d1b1c201f11b97ecfd36f8",
+        "signature": "9aff68f1b847b846d3d50a58c9f8f99389bedd0258d1b1c201f11b97ecfd36f8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/https.d.ts": {
+        "version": "1978992206803f5761e99e893d93b25abc818c5fe619674fdf2ae02b29f641ba",
+        "signature": "1978992206803f5761e99e893d93b25abc818c5fe619674fdf2ae02b29f641ba",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/inspector.d.ts": {
+        "version": "05fbe81f09fc455a2c343d2458d2b3c600c90b92b22926be765ee79326be9466",
+        "signature": "05fbe81f09fc455a2c343d2458d2b3c600c90b92b22926be765ee79326be9466",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/module.d.ts": {
+        "version": "8e7d6dae9e19bbe47600dcfd4418db85b30ae7351474ea0aad5e628f9845d340",
+        "signature": "8e7d6dae9e19bbe47600dcfd4418db85b30ae7351474ea0aad5e628f9845d340",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/net.d.ts": {
+        "version": "f20ea392f7f27feb7a90e5a24319a4e365b07bf83c39a547711fe7ff9df68657",
+        "signature": "f20ea392f7f27feb7a90e5a24319a4e365b07bf83c39a547711fe7ff9df68657",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/os.d.ts": {
+        "version": "32542c4660ecda892a333a533feedba31738ee538ef6a78eb73af647137bc3fc",
+        "signature": "32542c4660ecda892a333a533feedba31738ee538ef6a78eb73af647137bc3fc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/path.d.ts": {
+        "version": "0ecacea5047d1a7d350e7049dbd22f26435be5e8736a81a56afec5b3264db1ca",
+        "signature": "0ecacea5047d1a7d350e7049dbd22f26435be5e8736a81a56afec5b3264db1ca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "ffcb4ebde21f83370ed402583888b28651d2eb7f05bfec9482eb46d82adedd7f",
+        "signature": "ffcb4ebde21f83370ed402583888b28651d2eb7f05bfec9482eb46d82adedd7f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/process.d.ts": {
+        "version": "06c004006016a51c4d1855527a523562c329dc44c473931c65f10373281f730e",
+        "signature": "06c004006016a51c4d1855527a523562c329dc44c473931c65f10373281f730e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/punycode.d.ts": {
+        "version": "a7b43c69f9602d198825e403ee34e5d64f83c48b391b2897e8c0e6f72bca35f8",
+        "signature": "a7b43c69f9602d198825e403ee34e5d64f83c48b391b2897e8c0e6f72bca35f8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/querystring.d.ts": {
+        "version": "f4a3fc4efc6944e7b7bd4ccfa45e0df68b6359808e6cf9d061f04fd964a7b2d3",
+        "signature": "f4a3fc4efc6944e7b7bd4ccfa45e0df68b6359808e6cf9d061f04fd964a7b2d3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/readline.d.ts": {
+        "version": "73cad675aead7a2c05cf934e7e700c61d84b2037ac1d576c3f751199b25331da",
+        "signature": "73cad675aead7a2c05cf934e7e700c61d84b2037ac1d576c3f751199b25331da",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/repl.d.ts": {
+        "version": "8c3137ba3583ec18484429ec1c8eff89efdc42730542f157b38b102fdccc0c71",
+        "signature": "8c3137ba3583ec18484429ec1c8eff89efdc42730542f157b38b102fdccc0c71",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/stream.d.ts": {
+        "version": "d84300d886b45a198c346158e4ff7ae361cc7bc1c3deab44afb3db7de56b5d25",
+        "signature": "d84300d886b45a198c346158e4ff7ae361cc7bc1c3deab44afb3db7de56b5d25",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/string_decoder.d.ts": {
+        "version": "94ca7beec4e274d32362b54e0133152f7b4be9487db7b005070c03880b6363aa",
+        "signature": "94ca7beec4e274d32362b54e0133152f7b4be9487db7b005070c03880b6363aa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/timers.d.ts": {
+        "version": "2d713cbcbd5bcc38d91546eaeea7bb1c8686dc4a2995a28556d957b1b9de11d9",
+        "signature": "2d713cbcbd5bcc38d91546eaeea7bb1c8686dc4a2995a28556d957b1b9de11d9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/tls.d.ts": {
+        "version": "bbf21f210782db4193359010a4710786add43e3b50aa42fc0d371f45b4e4d8d3",
+        "signature": "bbf21f210782db4193359010a4710786add43e3b50aa42fc0d371f45b4e4d8d3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/trace_events.d.ts": {
+        "version": "0b7733d83619ac4e3963e2a9f7c75dc1e9af6850cb2354c9554977813092c10a",
+        "signature": "0b7733d83619ac4e3963e2a9f7c75dc1e9af6850cb2354c9554977813092c10a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/tty.d.ts": {
+        "version": "3ce933f0c3955f67f67eb7d6b5c83c2c54a18472c1d6f2bb651e51dd40c84837",
+        "signature": "3ce933f0c3955f67f67eb7d6b5c83c2c54a18472c1d6f2bb651e51dd40c84837",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/url.d.ts": {
+        "version": "631e96db896d645f7132c488ad34a16d71fd2be9f44696f8c98289ee1c8cbfa9",
+        "signature": "631e96db896d645f7132c488ad34a16d71fd2be9f44696f8c98289ee1c8cbfa9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/util.d.ts": {
+        "version": "2c77230d381cba81eb6f87cda2fbfff6c0427c6546c2e2590110effff37c58f7",
+        "signature": "2c77230d381cba81eb6f87cda2fbfff6c0427c6546c2e2590110effff37c58f7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/v8.d.ts": {
+        "version": "da86ee9a2f09a4583db1d5e37815894967e1f694ad9f3c25e84e0e4d40411e14",
+        "signature": "da86ee9a2f09a4583db1d5e37815894967e1f694ad9f3c25e84e0e4d40411e14",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/vm.d.ts": {
+        "version": "141a943e5690105898a67537a470f70b56d0e183441b56051d929e902376b7b2",
+        "signature": "141a943e5690105898a67537a470f70b56d0e183441b56051d929e902376b7b2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/worker_threads.d.ts": {
+        "version": "ddc086b1adac44e2fccf55422da1e90fa970e659d77f99712422a421564b4877",
+        "signature": "ddc086b1adac44e2fccf55422da1e90fa970e659d77f99712422a421564b4877",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/zlib.d.ts": {
+        "version": "515ef1d99036ff0dafa5bf738e02222edea94e0d97a0aa0ff277ac5e96b57977",
+        "signature": "515ef1d99036ff0dafa5bf738e02222edea94e0d97a0aa0ff277ac5e96b57977",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/globals.global.d.ts": {
+        "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/wasi.d.ts": {
+        "version": "780058f4a804c8bdcdd2f60e7af64b2bc57d149c1586ee3db732a84d659a50bf",
+        "signature": "780058f4a804c8bdcdd2f60e7af64b2bc57d149c1586ee3db732a84d659a50bf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/ts3.6/base.d.ts": {
+        "version": "ae68a04912ee5a0f589276f9ec60b095f8c40d48128a4575b3fdd7d93806931c",
+        "signature": "ae68a04912ee5a0f589276f9ec60b095f8c40d48128a4575b3fdd7d93806931c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/assert.d.ts": {
+        "version": "19d580a3b42ad5caeaee266ae958260e23f2df0549ee201c886c8bd7a4f01d4e",
+        "signature": "19d580a3b42ad5caeaee266ae958260e23f2df0549ee201c886c8bd7a4f01d4e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/base.d.ts": {
+        "version": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "signature": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/index.d.ts": {
+        "version": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
+        "signature": "9c4c395e927045b324877acdc4bfb95f128f36bc9f073266a2f0342495075a4f",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "composite": true,
+      "target": 4,
+      "module": 1,
+      "moduleResolution": 2,
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "removeComments": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedParameters": false,
+      "noUnusedLocals": false,
+      "forceConsistentCasingInFileNames": true,
+      "lib": [
+        "lib.es2017.d.ts",
+        "lib.es2018.asynciterable.d.ts"
+      ],
+      "types": [
+        "node"
+      ],
+      "baseUrl": "./",
+      "paths": {
+        "*": [
+          "types/*"
+        ]
+      },
+      "pathsBasePath": "/Users/mark/Freelance/LauriumLabs/apollo-codegen-julia",
+      "rootDir": "./src",
+      "outDir": "./lib",
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./node_modules/@oclif/command/lib/command.d.ts": [
+        "./node_modules/@oclif/command/lib/flags.d.ts",
+        "./node_modules/@oclif/config/lib/index.d.ts",
+        "./node_modules/@oclif/errors/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/command/lib/flags.d.ts": [
+        "./node_modules/@oclif/config/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/@oclif/parser/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/command/lib/index.d.ts": [
+        "./node_modules/@oclif/command/lib/command.d.ts",
+        "./node_modules/@oclif/command/lib/flags.d.ts",
+        "./node_modules/@oclif/command/lib/main.d.ts"
+      ],
+      "./node_modules/@oclif/command/lib/main.d.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/command.d.ts": [
+        "./node_modules/@oclif/config/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/config.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts",
+        "./node_modules/@oclif/config/lib/hooks.d.ts",
+        "./node_modules/@oclif/config/lib/pjson.d.ts",
+        "./node_modules/@oclif/config/lib/plugin.d.ts",
+        "./node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/hooks.d.ts": [
+        "./node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/index.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts",
+        "./node_modules/@oclif/config/lib/config.d.ts",
+        "./node_modules/@oclif/config/lib/hooks.d.ts",
+        "./node_modules/@oclif/config/lib/manifest.d.ts",
+        "./node_modules/@oclif/config/lib/pjson.d.ts",
+        "./node_modules/@oclif/config/lib/plugin.d.ts",
+        "./node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/manifest.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/plugin.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts",
+        "./node_modules/@oclif/config/lib/manifest.d.ts",
+        "./node_modules/@oclif/config/lib/pjson.d.ts",
+        "./node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/config.d.ts": [
+        "./node_modules/@oclif/errors/lib/logger.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/errors/cli.d.ts": [
+        "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/errors/exit.d.ts": [
+        "./node_modules/@oclif/errors/lib/errors/cli.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/handle.d.ts": [
+        "./node_modules/@oclif/errors/lib/errors/cli.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/index.d.ts": [
+        "./node_modules/@oclif/errors/lib/config.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/cli.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/exit.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts",
+        "./node_modules/@oclif/errors/lib/handle.d.ts",
+        "./node_modules/@oclif/errors/lib/logger.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/flags.d.ts": [
+        "./node_modules/@oclif/parser/lib/alphabet.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/help.d.ts": [
+        "./node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/index.d.ts": [
+        "./node_modules/@oclif/parser/lib/args.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/@oclif/parser/lib/help.d.ts",
+        "./node_modules/@oclif/parser/lib/parse.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/parse.d.ts": [
+        "./node_modules/@oclif/parser/lib/args.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/@oclif/parser/lib/metadata.d.ts"
+      ],
+      "./node_modules/@types/node/assert.d.ts": [
+        "./node_modules/@types/node/assert.d.ts"
+      ],
+      "./node_modules/@types/node/async_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/assert.d.ts",
+        "./node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "./node_modules/@types/node/buffer.d.ts": [
+        "./node_modules/@types/node/buffer.d.ts"
+      ],
+      "./node_modules/@types/node/child_process.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/cluster.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/console.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/constants.d.ts": [
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/os.d.ts"
+      ],
+      "./node_modules/@types/node/crypto.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/dgram.d.ts": [
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/dns.d.ts": [
+        "./node_modules/@types/node/dns.d.ts"
+      ],
+      "./node_modules/@types/node/domain.d.ts": [
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/events.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/fs.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/fs/promises.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts"
+      ],
+      "./node_modules/@types/node/http.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/http2.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/https.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/inspector.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/inspector.d.ts"
+      ],
+      "./node_modules/@types/node/module.d.ts": [
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/net.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/os.d.ts": [
+        "./node_modules/@types/node/os.d.ts"
+      ],
+      "./node_modules/@types/node/path.d.ts": [
+        "./node_modules/@types/node/path.d.ts"
+      ],
+      "./node_modules/@types/node/perf_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts"
+      ],
+      "./node_modules/@types/node/process.d.ts": [
+        "./node_modules/@types/node/tty.d.ts"
+      ],
+      "./node_modules/@types/node/punycode.d.ts": [
+        "./node_modules/@types/node/punycode.d.ts"
+      ],
+      "./node_modules/@types/node/querystring.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts"
+      ],
+      "./node_modules/@types/node/readline.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/readline.d.ts"
+      ],
+      "./node_modules/@types/node/repl.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/stream.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/string_decoder.d.ts": [
+        "./node_modules/@types/node/string_decoder.d.ts"
+      ],
+      "./node_modules/@types/node/timers.d.ts": [
+        "./node_modules/@types/node/timers.d.ts"
+      ],
+      "./node_modules/@types/node/tls.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/tls.d.ts"
+      ],
+      "./node_modules/@types/node/trace_events.d.ts": [
+        "./node_modules/@types/node/trace_events.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.6/base.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/buffer.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/console.d.ts",
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/globals.global.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/inspector.d.ts",
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/os.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./node_modules/@types/node/process.d.ts",
+        "./node_modules/@types/node/punycode.d.ts",
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./node_modules/@types/node/tty.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/v8.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/wasi.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/@types/node/tty.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/tty.d.ts"
+      ],
+      "./node_modules/@types/node/url.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/util.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/v8.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/v8.d.ts"
+      ],
+      "./node_modules/@types/node/vm.d.ts": [
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/wasi.d.ts": [
+        "./node_modules/@types/node/wasi.d.ts"
+      ],
+      "./node_modules/@types/node/worker_threads.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts"
+      ],
+      "./node_modules/@types/node/zlib.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts": [
+        "./node_modules/apollo-codegen-core/lib/utilities/array.d.ts",
+        "./node_modules/graphql/index.d.ts"
+      ],
+      "./node_modules/apollo-codegen-core/lib/utilities/graphql.d.ts": [
+        "./node_modules/graphql/index.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/utilities/buildastschema.d.ts"
+      ],
+      "./node_modules/camel-case/dist/index.d.ts": [
+        "./node_modules/pascal-case/dist/index.d.ts"
+      ],
+      "./node_modules/capital-case/dist/index.d.ts": [
+        "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/change-case/dist/index.d.ts": [
+        "./node_modules/camel-case/dist/index.d.ts",
+        "./node_modules/capital-case/dist/index.d.ts",
+        "./node_modules/constant-case/dist/index.d.ts",
+        "./node_modules/dot-case/dist/index.d.ts",
+        "./node_modules/header-case/dist/index.d.ts",
+        "./node_modules/no-case/dist/index.d.ts",
+        "./node_modules/param-case/dist/index.d.ts",
+        "./node_modules/pascal-case/dist/index.d.ts",
+        "./node_modules/path-case/dist/index.d.ts",
+        "./node_modules/sentence-case/dist/index.d.ts",
+        "./node_modules/snake-case/dist/index.d.ts"
+      ],
+      "./node_modules/constant-case/dist/index.d.ts": [
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/dot-case/dist/index.d.ts": [
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/graphql/error/formaterror.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/language/location.d.ts"
+      ],
+      "./node_modules/graphql/error/graphqlerror.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/location.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/error/index.d.ts": [
+        "./node_modules/graphql/error/formaterror.d.ts",
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/error/locatederror.d.ts",
+        "./node_modules/graphql/error/syntaxerror.d.ts"
+      ],
+      "./node_modules/graphql/error/locatederror.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/error/syntaxerror.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/execution/execute.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/jsutils/path.d.ts",
+        "./node_modules/graphql/jsutils/promiseorvalue.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/execution/index.d.ts": [
+        "./node_modules/graphql/execution/execute.d.ts",
+        "./node_modules/graphql/execution/values.d.ts",
+        "./node_modules/graphql/jsutils/path.d.ts"
+      ],
+      "./node_modules/graphql/execution/values.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/graphql.d.ts": [
+        "./node_modules/graphql/execution/execute.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/index.d.ts": [
+        "./node_modules/graphql/error/index.d.ts",
+        "./node_modules/graphql/execution/index.d.ts",
+        "./node_modules/graphql/graphql.d.ts",
+        "./node_modules/graphql/language/index.d.ts",
+        "./node_modules/graphql/subscription/index.d.ts",
+        "./node_modules/graphql/type/index.d.ts",
+        "./node_modules/graphql/utilities/index.d.ts",
+        "./node_modules/graphql/validation/index.d.ts",
+        "./node_modules/graphql/version.d.ts"
+      ],
+      "./node_modules/graphql/language/ast.d.ts": [
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/language/tokenkind.d.ts"
+      ],
+      "./node_modules/graphql/language/index.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/directivelocation.d.ts",
+        "./node_modules/graphql/language/kinds.d.ts",
+        "./node_modules/graphql/language/lexer.d.ts",
+        "./node_modules/graphql/language/location.d.ts",
+        "./node_modules/graphql/language/parser.d.ts",
+        "./node_modules/graphql/language/predicates.d.ts",
+        "./node_modules/graphql/language/printer.d.ts",
+        "./node_modules/graphql/language/printlocation.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/language/tokenkind.d.ts",
+        "./node_modules/graphql/language/visitor.d.ts"
+      ],
+      "./node_modules/graphql/language/lexer.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/language/tokenkind.d.ts"
+      ],
+      "./node_modules/graphql/language/location.d.ts": [
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/language/parser.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/language/predicates.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/language/printer.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/language/printlocation.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/location.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/language/visitor.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/subscription/index.d.ts": [
+        "./node_modules/graphql/subscription/subscribe.d.ts"
+      ],
+      "./node_modules/graphql/subscription/subscribe.d.ts": [
+        "./node_modules/graphql/execution/execute.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/type/definition.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/jsutils/path.d.ts",
+        "./node_modules/graphql/jsutils/promiseorvalue.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/type/directives.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/directivelocation.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/type/index.d.ts": [
+        "./node_modules/graphql/jsutils/path.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/introspection.d.ts",
+        "./node_modules/graphql/type/scalars.d.ts",
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/type/validate.d.ts"
+      ],
+      "./node_modules/graphql/type/introspection.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/type/scalars.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/type/schema.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts"
+      ],
+      "./node_modules/graphql/type/validate.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/assertvalidname.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts"
+      ],
+      "./node_modules/graphql/utilities/astfromvalue.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/utilities/buildastschema.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/parser.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/buildclientschema.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/getintrospectionquery.d.ts"
+      ],
+      "./node_modules/graphql/utilities/coerceinputvalue.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/utilities/concatast.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/utilities/extendschema.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/findbreakingchanges.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/finddeprecatedusages.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/getintrospectionquery.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/directivelocation.d.ts"
+      ],
+      "./node_modules/graphql/utilities/getoperationast.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/utilities/getoperationroottype.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/index.d.ts": [
+        "./node_modules/graphql/utilities/assertvalidname.d.ts",
+        "./node_modules/graphql/utilities/astfromvalue.d.ts",
+        "./node_modules/graphql/utilities/buildastschema.d.ts",
+        "./node_modules/graphql/utilities/buildclientschema.d.ts",
+        "./node_modules/graphql/utilities/coerceinputvalue.d.ts",
+        "./node_modules/graphql/utilities/concatast.d.ts",
+        "./node_modules/graphql/utilities/extendschema.d.ts",
+        "./node_modules/graphql/utilities/findbreakingchanges.d.ts",
+        "./node_modules/graphql/utilities/finddeprecatedusages.d.ts",
+        "./node_modules/graphql/utilities/getintrospectionquery.d.ts",
+        "./node_modules/graphql/utilities/getoperationast.d.ts",
+        "./node_modules/graphql/utilities/getoperationroottype.d.ts",
+        "./node_modules/graphql/utilities/introspectionfromschema.d.ts",
+        "./node_modules/graphql/utilities/lexicographicsortschema.d.ts",
+        "./node_modules/graphql/utilities/printschema.d.ts",
+        "./node_modules/graphql/utilities/separateoperations.d.ts",
+        "./node_modules/graphql/utilities/stripignoredcharacters.d.ts",
+        "./node_modules/graphql/utilities/typecomparators.d.ts",
+        "./node_modules/graphql/utilities/typefromast.d.ts",
+        "./node_modules/graphql/utilities/typeinfo.d.ts",
+        "./node_modules/graphql/utilities/valuefromast.d.ts",
+        "./node_modules/graphql/utilities/valuefromastuntyped.d.ts"
+      ],
+      "./node_modules/graphql/utilities/introspectionfromschema.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/getintrospectionquery.d.ts"
+      ],
+      "./node_modules/graphql/utilities/lexicographicsortschema.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/printschema.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/separateoperations.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/utilities/stripignoredcharacters.d.ts": [
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/utilities/typecomparators.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/typefromast.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/typeinfo.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/valuefromast.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/utilities/valuefromastuntyped.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/validation/index.d.ts": [
+        "./node_modules/graphql/validation/rules/custom/nodeprecatedcustomrule.d.ts",
+        "./node_modules/graphql/validation/rules/custom/noschemaintrospectioncustomrule.d.ts",
+        "./node_modules/graphql/validation/rules/executabledefinitionsrule.d.ts",
+        "./node_modules/graphql/validation/rules/fieldsoncorrecttyperule.d.ts",
+        "./node_modules/graphql/validation/rules/fragmentsoncompositetypesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knownargumentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knowndirectivesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knownfragmentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knowntypenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/loneanonymousoperationrule.d.ts",
+        "./node_modules/graphql/validation/rules/loneschemadefinitionrule.d.ts",
+        "./node_modules/graphql/validation/rules/nofragmentcyclesrule.d.ts",
+        "./node_modules/graphql/validation/rules/noundefinedvariablesrule.d.ts",
+        "./node_modules/graphql/validation/rules/nounusedfragmentsrule.d.ts",
+        "./node_modules/graphql/validation/rules/nounusedvariablesrule.d.ts",
+        "./node_modules/graphql/validation/rules/overlappingfieldscanbemergedrule.d.ts",
+        "./node_modules/graphql/validation/rules/possiblefragmentspreadsrule.d.ts",
+        "./node_modules/graphql/validation/rules/possibletypeextensionsrule.d.ts",
+        "./node_modules/graphql/validation/rules/providedrequiredargumentsrule.d.ts",
+        "./node_modules/graphql/validation/rules/scalarleafsrule.d.ts",
+        "./node_modules/graphql/validation/rules/singlefieldsubscriptionsrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueargumentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquedirectivenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquedirectivesperlocationrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueenumvaluenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquefielddefinitionnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquefragmentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueinputfieldnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueoperationnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueoperationtypesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquetypenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquevariablenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/valuesofcorrecttyperule.d.ts",
+        "./node_modules/graphql/validation/rules/variablesareinputtypesrule.d.ts",
+        "./node_modules/graphql/validation/rules/variablesinallowedpositionrule.d.ts",
+        "./node_modules/graphql/validation/specifiedrules.d.ts",
+        "./node_modules/graphql/validation/validate.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/custom/nodeprecatedcustomrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/custom/noschemaintrospectioncustomrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/executabledefinitionsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/fieldsoncorrecttyperule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/fragmentsoncompositetypesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knownargumentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knowndirectivesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knownfragmentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knowntypenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/loneanonymousoperationrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/loneschemadefinitionrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/nofragmentcyclesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/noundefinedvariablesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/nounusedfragmentsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/nounusedvariablesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/overlappingfieldscanbemergedrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/possiblefragmentspreadsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/possibletypeextensionsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/providedrequiredargumentsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/scalarleafsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/singlefieldsubscriptionsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueargumentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquedirectivenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquedirectivesperlocationrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueenumvaluenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquefielddefinitionnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquefragmentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueinputfieldnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueoperationnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueoperationtypesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquetypenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquevariablenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/valuesofcorrecttyperule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/variablesareinputtypesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/variablesinallowedpositionrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/specifiedrules.d.ts": [
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/validate.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/typeinfo.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/validationcontext.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/typeinfo.d.ts"
+      ],
+      "./node_modules/header-case/dist/index.d.ts": [
+        "./node_modules/capital-case/dist/index.d.ts"
+      ],
+      "./node_modules/param-case/dist/index.d.ts": [
+        "./node_modules/dot-case/dist/index.d.ts"
+      ],
+      "./node_modules/pascal-case/dist/index.d.ts": [
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/path-case/dist/index.d.ts": [
+        "./node_modules/dot-case/dist/index.d.ts"
+      ],
+      "./node_modules/sentence-case/dist/index.d.ts": [
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/snake-case/dist/index.d.ts": [
+        "./node_modules/dot-case/dist/index.d.ts"
+      ],
+      "./src/cli.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts"
+      ],
+      "./src/codegeneration.ts": [
+        "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "./node_modules/apollo-codegen-core/lib/utilities/codegenerator.d.ts",
+        "./node_modules/apollo-codegen-core/lib/utilities/graphql.d.ts",
+        "./node_modules/apollo-codegen-core/lib/utilities/printing.d.ts",
+        "./node_modules/graphql/index.d.ts",
+        "./src/language.ts",
+        "./src/naming.ts",
+        "./src/types.ts",
+        "./src/values.ts"
+      ],
+      "./src/index.ts": [
+        "./src/codegeneration.ts"
+      ],
+      "./src/language.ts": [
+        "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "./node_modules/apollo-codegen-core/lib/utilities/codegenerator.d.ts"
+      ],
+      "./src/naming.ts": [
+        "./node_modules/@types/inflected/index.d.ts",
+        "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "./node_modules/apollo-codegen-core/lib/utilities/printing.d.ts",
+        "./node_modules/change-case/dist/index.d.ts",
+        "./node_modules/graphql/index.d.ts",
+        "./src/language.ts",
+        "./src/types.ts"
+      ],
+      "./src/types.ts": [
+        "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "./node_modules/graphql/index.d.ts"
+      ],
+      "./src/values.ts": [
+        "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "./node_modules/apollo-codegen-core/lib/utilities/codegenerator.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./node_modules/@oclif/command/lib/command.d.ts": [
+        "./node_modules/@oclif/command/lib/flags.d.ts",
+        "./node_modules/@oclif/config/lib/index.d.ts",
+        "./node_modules/@oclif/errors/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/command/lib/flags.d.ts": [
+        "./node_modules/@oclif/config/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/@oclif/parser/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/command/lib/index.d.ts": [
+        "./node_modules/@oclif/command/lib/command.d.ts",
+        "./node_modules/@oclif/command/lib/flags.d.ts",
+        "./node_modules/@oclif/command/lib/main.d.ts"
+      ],
+      "./node_modules/@oclif/command/lib/main.d.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/command.d.ts": [
+        "./node_modules/@oclif/config/lib/index.d.ts",
+        "./node_modules/@oclif/parser/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/config.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts",
+        "./node_modules/@oclif/config/lib/hooks.d.ts",
+        "./node_modules/@oclif/config/lib/pjson.d.ts",
+        "./node_modules/@oclif/config/lib/plugin.d.ts",
+        "./node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/hooks.d.ts": [
+        "./node_modules/@oclif/config/lib/index.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/index.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts",
+        "./node_modules/@oclif/config/lib/config.d.ts",
+        "./node_modules/@oclif/config/lib/hooks.d.ts",
+        "./node_modules/@oclif/config/lib/manifest.d.ts",
+        "./node_modules/@oclif/config/lib/pjson.d.ts",
+        "./node_modules/@oclif/config/lib/plugin.d.ts",
+        "./node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/manifest.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts"
+      ],
+      "./node_modules/@oclif/config/lib/plugin.d.ts": [
+        "./node_modules/@oclif/config/lib/command.d.ts",
+        "./node_modules/@oclif/config/lib/manifest.d.ts",
+        "./node_modules/@oclif/config/lib/pjson.d.ts",
+        "./node_modules/@oclif/config/lib/topic.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/config.d.ts": [
+        "./node_modules/@oclif/errors/lib/logger.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/errors/cli.d.ts": [
+        "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/errors/exit.d.ts": [
+        "./node_modules/@oclif/errors/lib/errors/cli.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/handle.d.ts": [
+        "./node_modules/@oclif/errors/lib/errors/cli.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts"
+      ],
+      "./node_modules/@oclif/errors/lib/index.d.ts": [
+        "./node_modules/@oclif/errors/lib/config.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/cli.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/exit.d.ts",
+        "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts",
+        "./node_modules/@oclif/errors/lib/handle.d.ts",
+        "./node_modules/@oclif/errors/lib/logger.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/flags.d.ts": [
+        "./node_modules/@oclif/parser/lib/alphabet.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/help.d.ts": [
+        "./node_modules/@oclif/parser/lib/flags.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/index.d.ts": [
+        "./node_modules/@oclif/parser/lib/args.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/@oclif/parser/lib/help.d.ts",
+        "./node_modules/@oclif/parser/lib/parse.d.ts"
+      ],
+      "./node_modules/@oclif/parser/lib/parse.d.ts": [
+        "./node_modules/@oclif/parser/lib/args.d.ts",
+        "./node_modules/@oclif/parser/lib/flags.d.ts",
+        "./node_modules/@oclif/parser/lib/metadata.d.ts"
+      ],
+      "./node_modules/@types/node/assert.d.ts": [
+        "./node_modules/@types/node/assert.d.ts"
+      ],
+      "./node_modules/@types/node/async_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/assert.d.ts",
+        "./node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "./node_modules/@types/node/buffer.d.ts": [
+        "./node_modules/@types/node/buffer.d.ts"
+      ],
+      "./node_modules/@types/node/child_process.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/cluster.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/console.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/constants.d.ts": [
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/os.d.ts"
+      ],
+      "./node_modules/@types/node/crypto.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/dgram.d.ts": [
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts"
+      ],
+      "./node_modules/@types/node/dns.d.ts": [
+        "./node_modules/@types/node/dns.d.ts"
+      ],
+      "./node_modules/@types/node/domain.d.ts": [
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/events.d.ts": [
+        "./node_modules/@types/node/events.d.ts"
+      ],
+      "./node_modules/@types/node/fs.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/fs/promises.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts"
+      ],
+      "./node_modules/@types/node/http.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/http2.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/https.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts"
+      ],
+      "./node_modules/@types/node/inspector.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/inspector.d.ts"
+      ],
+      "./node_modules/@types/node/module.d.ts": [
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/net.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/os.d.ts": [
+        "./node_modules/@types/node/os.d.ts"
+      ],
+      "./node_modules/@types/node/path.d.ts": [
+        "./node_modules/@types/node/path.d.ts"
+      ],
+      "./node_modules/@types/node/perf_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts"
+      ],
+      "./node_modules/@types/node/process.d.ts": [
+        "./node_modules/@types/node/tty.d.ts"
+      ],
+      "./node_modules/@types/node/punycode.d.ts": [
+        "./node_modules/@types/node/punycode.d.ts"
+      ],
+      "./node_modules/@types/node/querystring.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts"
+      ],
+      "./node_modules/@types/node/readline.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/readline.d.ts"
+      ],
+      "./node_modules/@types/node/repl.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/stream.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts"
+      ],
+      "./node_modules/@types/node/string_decoder.d.ts": [
+        "./node_modules/@types/node/string_decoder.d.ts"
+      ],
+      "./node_modules/@types/node/timers.d.ts": [
+        "./node_modules/@types/node/timers.d.ts"
+      ],
+      "./node_modules/@types/node/tls.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/tls.d.ts"
+      ],
+      "./node_modules/@types/node/trace_events.d.ts": [
+        "./node_modules/@types/node/trace_events.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.6/base.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/buffer.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/console.d.ts",
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/globals.global.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/inspector.d.ts",
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/os.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./node_modules/@types/node/process.d.ts",
+        "./node_modules/@types/node/punycode.d.ts",
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./node_modules/@types/node/tty.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/v8.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/wasi.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/@types/node/tty.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/tty.d.ts"
+      ],
+      "./node_modules/@types/node/url.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/url.d.ts"
+      ],
+      "./node_modules/@types/node/util.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/v8.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/v8.d.ts"
+      ],
+      "./node_modules/@types/node/vm.d.ts": [
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/wasi.d.ts": [
+        "./node_modules/@types/node/wasi.d.ts"
+      ],
+      "./node_modules/@types/node/worker_threads.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs/promises.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts"
+      ],
+      "./node_modules/@types/node/zlib.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts": [
+        "./node_modules/apollo-codegen-core/lib/utilities/array.d.ts",
+        "./node_modules/graphql/index.d.ts"
+      ],
+      "./node_modules/apollo-codegen-core/lib/utilities/graphql.d.ts": [
+        "./node_modules/graphql/index.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/utilities/buildastschema.d.ts"
+      ],
+      "./node_modules/camel-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/pascal-case/dist/index.d.ts"
+      ],
+      "./node_modules/capital-case/dist/index.d.ts": [
+        "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/change-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "../../node_modules/capital-case/dist/index.d.ts",
+        "./node_modules/camel-case/dist/index.d.ts",
+        "./node_modules/constant-case/dist/index.d.ts",
+        "./node_modules/dot-case/dist/index.d.ts",
+        "./node_modules/header-case/dist/index.d.ts",
+        "./node_modules/no-case/dist/index.d.ts",
+        "./node_modules/param-case/dist/index.d.ts",
+        "./node_modules/pascal-case/dist/index.d.ts",
+        "./node_modules/path-case/dist/index.d.ts",
+        "./node_modules/sentence-case/dist/index.d.ts",
+        "./node_modules/snake-case/dist/index.d.ts"
+      ],
+      "./node_modules/constant-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/dot-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/graphql/error/formaterror.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/language/location.d.ts"
+      ],
+      "./node_modules/graphql/error/graphqlerror.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/location.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/error/index.d.ts": [
+        "./node_modules/graphql/error/formaterror.d.ts",
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/error/locatederror.d.ts",
+        "./node_modules/graphql/error/syntaxerror.d.ts"
+      ],
+      "./node_modules/graphql/error/locatederror.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/error/syntaxerror.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/execution/execute.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/jsutils/path.d.ts",
+        "./node_modules/graphql/jsutils/promiseorvalue.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/execution/index.d.ts": [
+        "./node_modules/graphql/execution/execute.d.ts",
+        "./node_modules/graphql/execution/values.d.ts",
+        "./node_modules/graphql/jsutils/path.d.ts"
+      ],
+      "./node_modules/graphql/execution/values.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/graphql.d.ts": [
+        "./node_modules/graphql/execution/execute.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/index.d.ts": [
+        "./node_modules/graphql/error/index.d.ts",
+        "./node_modules/graphql/execution/index.d.ts",
+        "./node_modules/graphql/graphql.d.ts",
+        "./node_modules/graphql/language/index.d.ts",
+        "./node_modules/graphql/subscription/index.d.ts",
+        "./node_modules/graphql/type/index.d.ts",
+        "./node_modules/graphql/utilities/index.d.ts",
+        "./node_modules/graphql/validation/index.d.ts",
+        "./node_modules/graphql/version.d.ts"
+      ],
+      "./node_modules/graphql/language/ast.d.ts": [
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/language/tokenkind.d.ts"
+      ],
+      "./node_modules/graphql/language/index.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/directivelocation.d.ts",
+        "./node_modules/graphql/language/kinds.d.ts",
+        "./node_modules/graphql/language/lexer.d.ts",
+        "./node_modules/graphql/language/location.d.ts",
+        "./node_modules/graphql/language/parser.d.ts",
+        "./node_modules/graphql/language/predicates.d.ts",
+        "./node_modules/graphql/language/printer.d.ts",
+        "./node_modules/graphql/language/printlocation.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/language/tokenkind.d.ts",
+        "./node_modules/graphql/language/visitor.d.ts"
+      ],
+      "./node_modules/graphql/language/lexer.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/language/tokenkind.d.ts"
+      ],
+      "./node_modules/graphql/language/location.d.ts": [
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/language/parser.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/language/predicates.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/language/printer.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/language/printlocation.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/location.d.ts",
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/language/visitor.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/subscription/index.d.ts": [
+        "./node_modules/graphql/subscription/subscribe.d.ts"
+      ],
+      "./node_modules/graphql/subscription/subscribe.d.ts": [
+        "./node_modules/graphql/execution/execute.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/type/definition.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/jsutils/path.d.ts",
+        "./node_modules/graphql/jsutils/promiseorvalue.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/type/directives.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/directivelocation.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/type/index.d.ts": [
+        "./node_modules/graphql/jsutils/path.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/introspection.d.ts",
+        "./node_modules/graphql/type/scalars.d.ts",
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/type/validate.d.ts"
+      ],
+      "./node_modules/graphql/type/introspection.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/type/scalars.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/type/schema.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts"
+      ],
+      "./node_modules/graphql/type/validate.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/assertvalidname.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts"
+      ],
+      "./node_modules/graphql/utilities/astfromvalue.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/utilities/buildastschema.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/parser.d.ts",
+        "./node_modules/graphql/language/source.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/buildclientschema.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/getintrospectionquery.d.ts"
+      ],
+      "./node_modules/graphql/utilities/coerceinputvalue.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/utilities/concatast.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/utilities/extendschema.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/findbreakingchanges.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/finddeprecatedusages.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/getintrospectionquery.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/directivelocation.d.ts"
+      ],
+      "./node_modules/graphql/utilities/getoperationast.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/utilities/getoperationroottype.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/index.d.ts": [
+        "./node_modules/graphql/utilities/assertvalidname.d.ts",
+        "./node_modules/graphql/utilities/astfromvalue.d.ts",
+        "./node_modules/graphql/utilities/buildastschema.d.ts",
+        "./node_modules/graphql/utilities/buildclientschema.d.ts",
+        "./node_modules/graphql/utilities/coerceinputvalue.d.ts",
+        "./node_modules/graphql/utilities/concatast.d.ts",
+        "./node_modules/graphql/utilities/extendschema.d.ts",
+        "./node_modules/graphql/utilities/findbreakingchanges.d.ts",
+        "./node_modules/graphql/utilities/finddeprecatedusages.d.ts",
+        "./node_modules/graphql/utilities/getintrospectionquery.d.ts",
+        "./node_modules/graphql/utilities/getoperationast.d.ts",
+        "./node_modules/graphql/utilities/getoperationroottype.d.ts",
+        "./node_modules/graphql/utilities/introspectionfromschema.d.ts",
+        "./node_modules/graphql/utilities/lexicographicsortschema.d.ts",
+        "./node_modules/graphql/utilities/printschema.d.ts",
+        "./node_modules/graphql/utilities/separateoperations.d.ts",
+        "./node_modules/graphql/utilities/stripignoredcharacters.d.ts",
+        "./node_modules/graphql/utilities/typecomparators.d.ts",
+        "./node_modules/graphql/utilities/typefromast.d.ts",
+        "./node_modules/graphql/utilities/typeinfo.d.ts",
+        "./node_modules/graphql/utilities/valuefromast.d.ts",
+        "./node_modules/graphql/utilities/valuefromastuntyped.d.ts"
+      ],
+      "./node_modules/graphql/utilities/introspectionfromschema.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/getintrospectionquery.d.ts"
+      ],
+      "./node_modules/graphql/utilities/lexicographicsortschema.d.ts": [
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/printschema.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/separateoperations.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/utilities/stripignoredcharacters.d.ts": [
+        "./node_modules/graphql/language/source.d.ts"
+      ],
+      "./node_modules/graphql/utilities/typecomparators.d.ts": [
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/typefromast.d.ts": [
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/typeinfo.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/schema.d.ts"
+      ],
+      "./node_modules/graphql/utilities/valuefromast.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/definition.d.ts"
+      ],
+      "./node_modules/graphql/utilities/valuefromastuntyped.d.ts": [
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts"
+      ],
+      "./node_modules/graphql/validation/index.d.ts": [
+        "./node_modules/graphql/validation/rules/custom/nodeprecatedcustomrule.d.ts",
+        "./node_modules/graphql/validation/rules/custom/noschemaintrospectioncustomrule.d.ts",
+        "./node_modules/graphql/validation/rules/executabledefinitionsrule.d.ts",
+        "./node_modules/graphql/validation/rules/fieldsoncorrecttyperule.d.ts",
+        "./node_modules/graphql/validation/rules/fragmentsoncompositetypesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knownargumentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knowndirectivesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knownfragmentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/knowntypenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/loneanonymousoperationrule.d.ts",
+        "./node_modules/graphql/validation/rules/loneschemadefinitionrule.d.ts",
+        "./node_modules/graphql/validation/rules/nofragmentcyclesrule.d.ts",
+        "./node_modules/graphql/validation/rules/noundefinedvariablesrule.d.ts",
+        "./node_modules/graphql/validation/rules/nounusedfragmentsrule.d.ts",
+        "./node_modules/graphql/validation/rules/nounusedvariablesrule.d.ts",
+        "./node_modules/graphql/validation/rules/overlappingfieldscanbemergedrule.d.ts",
+        "./node_modules/graphql/validation/rules/possiblefragmentspreadsrule.d.ts",
+        "./node_modules/graphql/validation/rules/possibletypeextensionsrule.d.ts",
+        "./node_modules/graphql/validation/rules/providedrequiredargumentsrule.d.ts",
+        "./node_modules/graphql/validation/rules/scalarleafsrule.d.ts",
+        "./node_modules/graphql/validation/rules/singlefieldsubscriptionsrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueargumentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquedirectivenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquedirectivesperlocationrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueenumvaluenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquefielddefinitionnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquefragmentnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueinputfieldnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueoperationnamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniqueoperationtypesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquetypenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/uniquevariablenamesrule.d.ts",
+        "./node_modules/graphql/validation/rules/valuesofcorrecttyperule.d.ts",
+        "./node_modules/graphql/validation/rules/variablesareinputtypesrule.d.ts",
+        "./node_modules/graphql/validation/rules/variablesinallowedpositionrule.d.ts",
+        "./node_modules/graphql/validation/specifiedrules.d.ts",
+        "./node_modules/graphql/validation/validate.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/custom/nodeprecatedcustomrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/custom/noschemaintrospectioncustomrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/executabledefinitionsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/fieldsoncorrecttyperule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/fragmentsoncompositetypesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knownargumentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knowndirectivesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knownfragmentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/knowntypenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/loneanonymousoperationrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/loneschemadefinitionrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/nofragmentcyclesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/noundefinedvariablesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/nounusedfragmentsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/nounusedvariablesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/overlappingfieldscanbemergedrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/possiblefragmentspreadsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/possibletypeextensionsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/providedrequiredargumentsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/scalarleafsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/singlefieldsubscriptionsrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueargumentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquedirectivenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquedirectivesperlocationrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueenumvaluenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquefielddefinitionnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquefragmentnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueinputfieldnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueoperationnamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniqueoperationtypesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquetypenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/uniquevariablenamesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/valuesofcorrecttyperule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/variablesareinputtypesrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/rules/variablesinallowedpositionrule.d.ts": [
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/specifiedrules.d.ts": [
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/validate.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/typeinfo.d.ts",
+        "./node_modules/graphql/validation/validationcontext.d.ts"
+      ],
+      "./node_modules/graphql/validation/validationcontext.d.ts": [
+        "./node_modules/graphql/error/graphqlerror.d.ts",
+        "./node_modules/graphql/jsutils/maybe.d.ts",
+        "./node_modules/graphql/language/ast.d.ts",
+        "./node_modules/graphql/language/visitor.d.ts",
+        "./node_modules/graphql/type/definition.d.ts",
+        "./node_modules/graphql/type/directives.d.ts",
+        "./node_modules/graphql/type/schema.d.ts",
+        "./node_modules/graphql/utilities/typeinfo.d.ts"
+      ],
+      "./node_modules/header-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "../../node_modules/capital-case/dist/index.d.ts"
+      ],
+      "./node_modules/no-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts"
+      ],
+      "./node_modules/param-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/dot-case/dist/index.d.ts"
+      ],
+      "./node_modules/pascal-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/path-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/dot-case/dist/index.d.ts"
+      ],
+      "./node_modules/sentence-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/no-case/dist/index.d.ts"
+      ],
+      "./node_modules/snake-case/dist/index.d.ts": [
+        "../../node_modules/@types/node/base.d.ts",
+        "../../node_modules/@types/node/index.d.ts",
+        "./node_modules/dot-case/dist/index.d.ts"
+      ],
+      "./src/codegeneration.ts": [
+        "../../node_modules/graphql/index.d.ts",
+        "../apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "../apollo-codegen-core/lib/utilities/codegenerator.d.ts",
+        "./src/language.ts"
+      ],
+      "./src/index.ts": [
+        "./src/codegeneration.ts"
+      ],
+      "./src/language.ts": [
+        "../apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "../apollo-codegen-core/lib/utilities/codegenerator.d.ts"
+      ],
+      "./src/naming.ts": [
+        "../../node_modules/graphql/index.d.ts",
+        "../apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "./src/language.ts"
+      ],
+      "./src/types.ts": [
+        "../../node_modules/graphql/index.d.ts",
+        "../apollo-codegen-core/lib/compiler/legacyir.d.ts"
+      ],
+      "./src/values.ts": [
+        "../apollo-codegen-core/lib/compiler/legacyir.d.ts",
+        "../apollo-codegen-core/lib/utilities/codegenerator.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/@oclif/command/lib/command.d.ts",
+      "./node_modules/@oclif/command/lib/flags.d.ts",
+      "./node_modules/@oclif/command/lib/index.d.ts",
+      "./node_modules/@oclif/command/lib/main.d.ts",
+      "./node_modules/@oclif/config/lib/command.d.ts",
+      "./node_modules/@oclif/config/lib/config.d.ts",
+      "./node_modules/@oclif/config/lib/hooks.d.ts",
+      "./node_modules/@oclif/config/lib/index.d.ts",
+      "./node_modules/@oclif/config/lib/manifest.d.ts",
+      "./node_modules/@oclif/config/lib/pjson.d.ts",
+      "./node_modules/@oclif/config/lib/plugin.d.ts",
+      "./node_modules/@oclif/config/lib/topic.d.ts",
+      "./node_modules/@oclif/errors/lib/config.d.ts",
+      "./node_modules/@oclif/errors/lib/errors/cli.d.ts",
+      "./node_modules/@oclif/errors/lib/errors/exit.d.ts",
+      "./node_modules/@oclif/errors/lib/errors/pretty-print.d.ts",
+      "./node_modules/@oclif/errors/lib/handle.d.ts",
+      "./node_modules/@oclif/errors/lib/index.d.ts",
+      "./node_modules/@oclif/errors/lib/logger.d.ts",
+      "./node_modules/@oclif/parser/lib/alphabet.d.ts",
+      "./node_modules/@oclif/parser/lib/args.d.ts",
+      "./node_modules/@oclif/parser/lib/flags.d.ts",
+      "./node_modules/@oclif/parser/lib/help.d.ts",
+      "./node_modules/@oclif/parser/lib/index.d.ts",
+      "./node_modules/@oclif/parser/lib/metadata.d.ts",
+      "./node_modules/@oclif/parser/lib/parse.d.ts",
+      "./node_modules/@types/inflected/index.d.ts",
+      "./node_modules/@types/node/assert.d.ts",
+      "./node_modules/@types/node/async_hooks.d.ts",
+      "./node_modules/@types/node/base.d.ts",
+      "./node_modules/@types/node/buffer.d.ts",
+      "./node_modules/@types/node/child_process.d.ts",
+      "./node_modules/@types/node/cluster.d.ts",
+      "./node_modules/@types/node/console.d.ts",
+      "./node_modules/@types/node/constants.d.ts",
+      "./node_modules/@types/node/crypto.d.ts",
+      "./node_modules/@types/node/dgram.d.ts",
+      "./node_modules/@types/node/dns.d.ts",
+      "./node_modules/@types/node/domain.d.ts",
+      "./node_modules/@types/node/events.d.ts",
+      "./node_modules/@types/node/fs.d.ts",
+      "./node_modules/@types/node/fs/promises.d.ts",
+      "./node_modules/@types/node/globals.d.ts",
+      "./node_modules/@types/node/globals.global.d.ts",
+      "./node_modules/@types/node/http.d.ts",
+      "./node_modules/@types/node/http2.d.ts",
+      "./node_modules/@types/node/https.d.ts",
+      "./node_modules/@types/node/index.d.ts",
+      "./node_modules/@types/node/inspector.d.ts",
+      "./node_modules/@types/node/module.d.ts",
+      "./node_modules/@types/node/net.d.ts",
+      "./node_modules/@types/node/os.d.ts",
+      "./node_modules/@types/node/path.d.ts",
+      "./node_modules/@types/node/perf_hooks.d.ts",
+      "./node_modules/@types/node/process.d.ts",
+      "./node_modules/@types/node/punycode.d.ts",
+      "./node_modules/@types/node/querystring.d.ts",
+      "./node_modules/@types/node/readline.d.ts",
+      "./node_modules/@types/node/repl.d.ts",
+      "./node_modules/@types/node/stream.d.ts",
+      "./node_modules/@types/node/string_decoder.d.ts",
+      "./node_modules/@types/node/timers.d.ts",
+      "./node_modules/@types/node/tls.d.ts",
+      "./node_modules/@types/node/trace_events.d.ts",
+      "./node_modules/@types/node/ts3.6/base.d.ts",
+      "./node_modules/@types/node/tty.d.ts",
+      "./node_modules/@types/node/url.d.ts",
+      "./node_modules/@types/node/util.d.ts",
+      "./node_modules/@types/node/v8.d.ts",
+      "./node_modules/@types/node/vm.d.ts",
+      "./node_modules/@types/node/wasi.d.ts",
+      "./node_modules/@types/node/worker_threads.d.ts",
+      "./node_modules/@types/node/zlib.d.ts",
+      "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
+      "./node_modules/apollo-codegen-core/lib/utilities/array.d.ts",
+      "./node_modules/apollo-codegen-core/lib/utilities/codegenerator.d.ts",
+      "./node_modules/apollo-codegen-core/lib/utilities/graphql.d.ts",
+      "./node_modules/apollo-codegen-core/lib/utilities/printing.d.ts",
+      "./node_modules/camel-case/dist/index.d.ts",
+      "./node_modules/capital-case/dist/index.d.ts",
+      "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts",
+      [
+        "./node_modules/change-case/dist/index.d.ts",
+        [
+          {
+            "file": "./node_modules/change-case/dist/index.d.ts",
+            "start": 28,
+            "length": 29,
+            "messageText": "Module \"camel-case\" has already exported a member named 'Options'. Consider explicitly re-exporting to resolve the ambiguity.",
+            "category": 1,
+            "code": 2308
+          },
+          {
+            "file": "./node_modules/change-case/dist/index.d.ts",
+            "start": 115,
+            "length": 28,
+            "messageText": "Module \"camel-case\" has already exported a member named 'Options'. Consider explicitly re-exporting to resolve the ambiguity.",
+            "category": 1,
+            "code": 2308
+          }
+        ]
+      ],
+      "./node_modules/constant-case/dist/index.d.ts",
+      "./node_modules/dot-case/dist/index.d.ts",
+      "./node_modules/graphql/error/formaterror.d.ts",
+      "./node_modules/graphql/error/graphqlerror.d.ts",
+      "./node_modules/graphql/error/index.d.ts",
+      "./node_modules/graphql/error/locatederror.d.ts",
+      "./node_modules/graphql/error/syntaxerror.d.ts",
+      "./node_modules/graphql/execution/execute.d.ts",
+      "./node_modules/graphql/execution/index.d.ts",
+      "./node_modules/graphql/execution/values.d.ts",
+      "./node_modules/graphql/graphql.d.ts",
+      "./node_modules/graphql/index.d.ts",
+      "./node_modules/graphql/jsutils/maybe.d.ts",
+      "./node_modules/graphql/jsutils/path.d.ts",
+      "./node_modules/graphql/jsutils/promiseorvalue.d.ts",
+      "./node_modules/graphql/language/ast.d.ts",
+      "./node_modules/graphql/language/directivelocation.d.ts",
+      "./node_modules/graphql/language/index.d.ts",
+      "./node_modules/graphql/language/kinds.d.ts",
+      "./node_modules/graphql/language/lexer.d.ts",
+      "./node_modules/graphql/language/location.d.ts",
+      "./node_modules/graphql/language/parser.d.ts",
+      "./node_modules/graphql/language/predicates.d.ts",
+      "./node_modules/graphql/language/printer.d.ts",
+      "./node_modules/graphql/language/printlocation.d.ts",
+      "./node_modules/graphql/language/source.d.ts",
+      "./node_modules/graphql/language/tokenkind.d.ts",
+      "./node_modules/graphql/language/visitor.d.ts",
+      "./node_modules/graphql/subscription/index.d.ts",
+      "./node_modules/graphql/subscription/subscribe.d.ts",
+      "./node_modules/graphql/type/definition.d.ts",
+      "./node_modules/graphql/type/directives.d.ts",
+      "./node_modules/graphql/type/index.d.ts",
+      "./node_modules/graphql/type/introspection.d.ts",
+      "./node_modules/graphql/type/scalars.d.ts",
+      "./node_modules/graphql/type/schema.d.ts",
+      "./node_modules/graphql/type/validate.d.ts",
+      "./node_modules/graphql/utilities/assertvalidname.d.ts",
+      "./node_modules/graphql/utilities/astfromvalue.d.ts",
+      "./node_modules/graphql/utilities/buildastschema.d.ts",
+      "./node_modules/graphql/utilities/buildclientschema.d.ts",
+      "./node_modules/graphql/utilities/coerceinputvalue.d.ts",
+      "./node_modules/graphql/utilities/concatast.d.ts",
+      "./node_modules/graphql/utilities/extendschema.d.ts",
+      "./node_modules/graphql/utilities/findbreakingchanges.d.ts",
+      "./node_modules/graphql/utilities/finddeprecatedusages.d.ts",
+      "./node_modules/graphql/utilities/getintrospectionquery.d.ts",
+      "./node_modules/graphql/utilities/getoperationast.d.ts",
+      "./node_modules/graphql/utilities/getoperationroottype.d.ts",
+      "./node_modules/graphql/utilities/index.d.ts",
+      "./node_modules/graphql/utilities/introspectionfromschema.d.ts",
+      "./node_modules/graphql/utilities/lexicographicsortschema.d.ts",
+      "./node_modules/graphql/utilities/printschema.d.ts",
+      "./node_modules/graphql/utilities/separateoperations.d.ts",
+      "./node_modules/graphql/utilities/stripignoredcharacters.d.ts",
+      "./node_modules/graphql/utilities/typecomparators.d.ts",
+      "./node_modules/graphql/utilities/typefromast.d.ts",
+      "./node_modules/graphql/utilities/typeinfo.d.ts",
+      "./node_modules/graphql/utilities/valuefromast.d.ts",
+      "./node_modules/graphql/utilities/valuefromastuntyped.d.ts",
+      "./node_modules/graphql/validation/index.d.ts",
+      "./node_modules/graphql/validation/rules/custom/nodeprecatedcustomrule.d.ts",
+      "./node_modules/graphql/validation/rules/custom/noschemaintrospectioncustomrule.d.ts",
+      "./node_modules/graphql/validation/rules/executabledefinitionsrule.d.ts",
+      "./node_modules/graphql/validation/rules/fieldsoncorrecttyperule.d.ts",
+      "./node_modules/graphql/validation/rules/fragmentsoncompositetypesrule.d.ts",
+      "./node_modules/graphql/validation/rules/knownargumentnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/knowndirectivesrule.d.ts",
+      "./node_modules/graphql/validation/rules/knownfragmentnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/knowntypenamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/loneanonymousoperationrule.d.ts",
+      "./node_modules/graphql/validation/rules/loneschemadefinitionrule.d.ts",
+      "./node_modules/graphql/validation/rules/nofragmentcyclesrule.d.ts",
+      "./node_modules/graphql/validation/rules/noundefinedvariablesrule.d.ts",
+      "./node_modules/graphql/validation/rules/nounusedfragmentsrule.d.ts",
+      "./node_modules/graphql/validation/rules/nounusedvariablesrule.d.ts",
+      "./node_modules/graphql/validation/rules/overlappingfieldscanbemergedrule.d.ts",
+      "./node_modules/graphql/validation/rules/possiblefragmentspreadsrule.d.ts",
+      "./node_modules/graphql/validation/rules/possibletypeextensionsrule.d.ts",
+      "./node_modules/graphql/validation/rules/providedrequiredargumentsrule.d.ts",
+      "./node_modules/graphql/validation/rules/scalarleafsrule.d.ts",
+      "./node_modules/graphql/validation/rules/singlefieldsubscriptionsrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniqueargumentnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniquedirectivenamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniquedirectivesperlocationrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniqueenumvaluenamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniquefielddefinitionnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniquefragmentnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniqueinputfieldnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniqueoperationnamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniqueoperationtypesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniquetypenamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/uniquevariablenamesrule.d.ts",
+      "./node_modules/graphql/validation/rules/valuesofcorrecttyperule.d.ts",
+      "./node_modules/graphql/validation/rules/variablesareinputtypesrule.d.ts",
+      "./node_modules/graphql/validation/rules/variablesinallowedpositionrule.d.ts",
+      "./node_modules/graphql/validation/specifiedrules.d.ts",
+      "./node_modules/graphql/validation/validate.d.ts",
+      "./node_modules/graphql/validation/validationcontext.d.ts",
+      "./node_modules/graphql/version.d.ts",
+      "./node_modules/header-case/dist/index.d.ts",
+      "./node_modules/no-case/dist/index.d.ts",
+      "./node_modules/param-case/dist/index.d.ts",
+      "./node_modules/pascal-case/dist/index.d.ts",
+      "./node_modules/path-case/dist/index.d.ts",
+      "./node_modules/sentence-case/dist/index.d.ts",
+      "./node_modules/snake-case/dist/index.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./src/cli.ts",
+      "./src/codegeneration.ts",
+      "./src/index.ts",
+      "./src/language.ts",
+      "./src/naming.ts",
+      "./src/types.ts",
+      "./src/values.ts"
+    ]
+  },
+  "version": "4.2.3"
+}
