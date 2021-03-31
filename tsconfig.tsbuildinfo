@@ -791,71 +791,6 @@
         "signature": "b38792d3938886adf56c881669697ad649bf82fd6e47d427ef26e0663dc87f93",
         "affectsGlobalScope": false
       },
-      "./node_modules/no-case/dist/index.d.ts": {
-        "version": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
-        "signature": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/pascal-case/dist/index.d.ts": {
-        "version": "f86c04a744ebcede96bac376f9a2c90f2bd3c422740d91dda4ca6233199d4977",
-        "signature": "f86c04a744ebcede96bac376f9a2c90f2bd3c422740d91dda4ca6233199d4977",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/camel-case/dist/index.d.ts": {
-        "version": "6ae1bddee5c790439bd992abd063b9b46e0cadd676c2a8562268d1869213ff60",
-        "signature": "6ae1bddee5c790439bd992abd063b9b46e0cadd676c2a8562268d1869213ff60",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts": {
-        "version": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
-        "signature": "b4e123af1af6049685c93073a15868b50aebdad666d422edc72fa2b585fa8a37",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/capital-case/dist/index.d.ts": {
-        "version": "606244fc97a6a74b877f2e924ba7e55b233bc6acb57d7bf40ba84a5be2d9adb0",
-        "signature": "606244fc97a6a74b877f2e924ba7e55b233bc6acb57d7bf40ba84a5be2d9adb0",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/constant-case/dist/index.d.ts": {
-        "version": "4a1cabac71036b8a14f5db1b753b579f0c901c7d7b9227e6872dadf6efb104e8",
-        "signature": "4a1cabac71036b8a14f5db1b753b579f0c901c7d7b9227e6872dadf6efb104e8",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/dot-case/dist/index.d.ts": {
-        "version": "062959a1d825b96639d87be35fe497cbd3f89544bf06fdad577bbfb85fcf604c",
-        "signature": "062959a1d825b96639d87be35fe497cbd3f89544bf06fdad577bbfb85fcf604c",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/header-case/dist/index.d.ts": {
-        "version": "4c3672dc8f4e4fdd3d18525b22b31f1b5481f5a415db96550d3ac5163a6c3dd3",
-        "signature": "4c3672dc8f4e4fdd3d18525b22b31f1b5481f5a415db96550d3ac5163a6c3dd3",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/param-case/dist/index.d.ts": {
-        "version": "f9a69ca445010b91fe08f08c06e0f86d79c0d776905f9bdb828477cb2a1eb7fc",
-        "signature": "f9a69ca445010b91fe08f08c06e0f86d79c0d776905f9bdb828477cb2a1eb7fc",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/path-case/dist/index.d.ts": {
-        "version": "ad7fd0e7ee457d4884b3aaecbcbd2a80b6803407c4ce2540c296170d4c7918ef",
-        "signature": "ad7fd0e7ee457d4884b3aaecbcbd2a80b6803407c4ce2540c296170d4c7918ef",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/sentence-case/dist/index.d.ts": {
-        "version": "a50ef21605f41c6acad6c3ef0307e5311b94963c846ca093c764b80cdb5318d6",
-        "signature": "a50ef21605f41c6acad6c3ef0307e5311b94963c846ca093c764b80cdb5318d6",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/snake-case/dist/index.d.ts": {
-        "version": "74b4035dd26d09a417c44ca23ab5ee69b173f8c2f6b2e47350ab0795cf2d4a17",
-        "signature": "74b4035dd26d09a417c44ca23ab5ee69b173f8c2f6b2e47350ab0795cf2d4a17",
-        "affectsGlobalScope": false
-      },
-      "./node_modules/change-case/dist/index.d.ts": {
-        "version": "918f86ee2b19cc38cb8b1a4cf8f223eb228aaa39df3604c42f700fac2f0b3ea1",
-        "signature": "918f86ee2b19cc38cb8b1a4cf8f223eb228aaa39df3604c42f700fac2f0b3ea1",
-        "affectsGlobalScope": false
-      },
       "./node_modules/@types/inflected/index.d.ts": {
         "version": "af9c5af1f599bf1e5b747cfb9ea2905f1efd64755ec4647108c24f49bbb4281f",
         "signature": "af9c5af1f599bf1e5b747cfb9ea2905f1efd64755ec4647108c24f49bbb4281f",
@@ -867,7 +802,7 @@
         "affectsGlobalScope": false
       },
       "./src/naming.ts": {
-        "version": "cab82f23f611156e76c974a63d852bbf5d1c2d5ccd673ab0023fc46f6e92a8ef",
+        "version": "f6472279a67ca3da1a2bfcde34aefbfda6e3b07712d5340dc2e1d834b5878fee",
         "signature": "e0e8c7c7d38c95a53794e87dd3b47677f5560597baca01b33c91330e596af614",
         "affectsGlobalScope": false
       },
@@ -1147,7 +1082,7 @@
           "types/*"
         ]
       },
-      "pathsBasePath": "/Users/mark/Freelance/LauriumLabs/apollo-codegen-julia",
+      "pathsBasePath": "/Users/mark/Freelance/LauriumLabs/graphql-julia-codegen",
       "rootDir": "./src",
       "outDir": "./lib",
       "configFilePath": "./tsconfig.json"
@@ -1479,31 +1414,6 @@
         "./node_modules/graphql/index.d.ts",
         "./node_modules/graphql/jsutils/maybe.d.ts",
         "./node_modules/graphql/utilities/buildastschema.d.ts"
-      ],
-      "./node_modules/camel-case/dist/index.d.ts": [
-        "./node_modules/pascal-case/dist/index.d.ts"
-      ],
-      "./node_modules/capital-case/dist/index.d.ts": [
-        "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/change-case/dist/index.d.ts": [
-        "./node_modules/camel-case/dist/index.d.ts",
-        "./node_modules/capital-case/dist/index.d.ts",
-        "./node_modules/constant-case/dist/index.d.ts",
-        "./node_modules/dot-case/dist/index.d.ts",
-        "./node_modules/header-case/dist/index.d.ts",
-        "./node_modules/no-case/dist/index.d.ts",
-        "./node_modules/param-case/dist/index.d.ts",
-        "./node_modules/pascal-case/dist/index.d.ts",
-        "./node_modules/path-case/dist/index.d.ts",
-        "./node_modules/sentence-case/dist/index.d.ts",
-        "./node_modules/snake-case/dist/index.d.ts"
-      ],
-      "./node_modules/constant-case/dist/index.d.ts": [
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/dot-case/dist/index.d.ts": [
-        "./node_modules/no-case/dist/index.d.ts"
       ],
       "./node_modules/graphql/error/formaterror.d.ts": [
         "./node_modules/graphql/error/graphqlerror.d.ts",
@@ -1982,24 +1892,6 @@
         "./node_modules/graphql/type/schema.d.ts",
         "./node_modules/graphql/utilities/typeinfo.d.ts"
       ],
-      "./node_modules/header-case/dist/index.d.ts": [
-        "./node_modules/capital-case/dist/index.d.ts"
-      ],
-      "./node_modules/param-case/dist/index.d.ts": [
-        "./node_modules/dot-case/dist/index.d.ts"
-      ],
-      "./node_modules/pascal-case/dist/index.d.ts": [
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/path-case/dist/index.d.ts": [
-        "./node_modules/dot-case/dist/index.d.ts"
-      ],
-      "./node_modules/sentence-case/dist/index.d.ts": [
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/snake-case/dist/index.d.ts": [
-        "./node_modules/dot-case/dist/index.d.ts"
-      ],
       "./src/cli.ts": [
         "./node_modules/@oclif/command/lib/index.d.ts",
         "./node_modules/@types/node/fs.d.ts"
@@ -2026,7 +1918,6 @@
         "./node_modules/@types/inflected/index.d.ts",
         "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
         "./node_modules/apollo-codegen-core/lib/utilities/printing.d.ts",
-        "./node_modules/change-case/dist/index.d.ts",
         "./node_modules/graphql/index.d.ts",
         "./src/language.ts",
         "./src/types.ts"
@@ -2368,39 +2259,6 @@
         "./node_modules/graphql/jsutils/maybe.d.ts",
         "./node_modules/graphql/utilities/buildastschema.d.ts"
       ],
-      "./node_modules/camel-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/pascal-case/dist/index.d.ts"
-      ],
-      "./node_modules/capital-case/dist/index.d.ts": [
-        "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/change-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "../../node_modules/capital-case/dist/index.d.ts",
-        "./node_modules/camel-case/dist/index.d.ts",
-        "./node_modules/constant-case/dist/index.d.ts",
-        "./node_modules/dot-case/dist/index.d.ts",
-        "./node_modules/header-case/dist/index.d.ts",
-        "./node_modules/no-case/dist/index.d.ts",
-        "./node_modules/param-case/dist/index.d.ts",
-        "./node_modules/pascal-case/dist/index.d.ts",
-        "./node_modules/path-case/dist/index.d.ts",
-        "./node_modules/sentence-case/dist/index.d.ts",
-        "./node_modules/snake-case/dist/index.d.ts"
-      ],
-      "./node_modules/constant-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/dot-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
       "./node_modules/graphql/error/formaterror.d.ts": [
         "./node_modules/graphql/error/graphqlerror.d.ts",
         "./node_modules/graphql/language/location.d.ts"
@@ -2878,40 +2736,6 @@
         "./node_modules/graphql/type/schema.d.ts",
         "./node_modules/graphql/utilities/typeinfo.d.ts"
       ],
-      "./node_modules/header-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "../../node_modules/capital-case/dist/index.d.ts"
-      ],
-      "./node_modules/no-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts"
-      ],
-      "./node_modules/param-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/dot-case/dist/index.d.ts"
-      ],
-      "./node_modules/pascal-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/path-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/dot-case/dist/index.d.ts"
-      ],
-      "./node_modules/sentence-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/no-case/dist/index.d.ts"
-      ],
-      "./node_modules/snake-case/dist/index.d.ts": [
-        "../../node_modules/@types/node/base.d.ts",
-        "../../node_modules/@types/node/index.d.ts",
-        "./node_modules/dot-case/dist/index.d.ts"
-      ],
       "./src/codegeneration.ts": [
         "../../node_modules/graphql/index.d.ts",
         "../apollo-codegen-core/lib/compiler/legacyir.d.ts",
@@ -3018,32 +2842,6 @@
       "./node_modules/apollo-codegen-core/lib/utilities/codegenerator.d.ts",
       "./node_modules/apollo-codegen-core/lib/utilities/graphql.d.ts",
       "./node_modules/apollo-codegen-core/lib/utilities/printing.d.ts",
-      "./node_modules/camel-case/dist/index.d.ts",
-      "./node_modules/capital-case/dist/index.d.ts",
-      "./node_modules/capital-case/node_modules/no-case/dist/index.d.ts",
-      [
-        "./node_modules/change-case/dist/index.d.ts",
-        [
-          {
-            "file": "./node_modules/change-case/dist/index.d.ts",
-            "start": 28,
-            "length": 29,
-            "messageText": "Module \"camel-case\" has already exported a member named 'Options'. Consider explicitly re-exporting to resolve the ambiguity.",
-            "category": 1,
-            "code": 2308
-          },
-          {
-            "file": "./node_modules/change-case/dist/index.d.ts",
-            "start": 115,
-            "length": 28,
-            "messageText": "Module \"camel-case\" has already exported a member named 'Options'. Consider explicitly re-exporting to resolve the ambiguity.",
-            "category": 1,
-            "code": 2308
-          }
-        ]
-      ],
-      "./node_modules/constant-case/dist/index.d.ts",
-      "./node_modules/dot-case/dist/index.d.ts",
       "./node_modules/graphql/error/formaterror.d.ts",
       "./node_modules/graphql/error/graphqlerror.d.ts",
       "./node_modules/graphql/error/index.d.ts",
@@ -3142,13 +2940,6 @@
       "./node_modules/graphql/validation/validate.d.ts",
       "./node_modules/graphql/validation/validationcontext.d.ts",
       "./node_modules/graphql/version.d.ts",
-      "./node_modules/header-case/dist/index.d.ts",
-      "./node_modules/no-case/dist/index.d.ts",
-      "./node_modules/param-case/dist/index.d.ts",
-      "./node_modules/pascal-case/dist/index.d.ts",
-      "./node_modules/path-case/dist/index.d.ts",
-      "./node_modules/sentence-case/dist/index.d.ts",
-      "./node_modules/snake-case/dist/index.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "./node_modules/typescript/lib/lib.es2015.core.d.ts",
       "./node_modules/typescript/lib/lib.es2015.d.ts",

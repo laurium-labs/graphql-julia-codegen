@@ -1,4 +1,3 @@
-import { camelCase, pascalCase } from "change-case";
 import * as Inflector from "inflected";
 
 import { join } from "apollo-codegen-core/lib/utilities/printing";
@@ -21,25 +20,25 @@ import {
 import { GraphQLInputField } from "graphql";
 
 export function enumCaseName(name: string) {
-  return camelCase(name);
+  return name;
 }
 
 export function operationClassName(name: string) {
-  return pascalCase(name);
+  return name;
 }
 
 export function traitNameForPropertyName(propertyName: string) {
-  return pascalCase(Inflector.singularize(propertyName));
+  return Inflector.singularize(propertyName);
 }
 
 export function traitNameForFragmentName(fragmentName: string) {
-  return pascalCase(fragmentName);
+  return fragmentName;
 }
 
 export function traitNameForInlineFragment(
   inlineFragment: LegacyInlineFragment
 ) {
-  return "As" + pascalCase(String(inlineFragment.typeCondition));
+  return "As" + String(inlineFragment.typeCondition);
 }
 
 export function propertyFromInputField(
@@ -49,7 +48,7 @@ export function propertyFromInputField(
   parentTraitName?: string
 ): GraphQLInputField & Property {
   const name = field.name;
-  const unescapedPropertyName = isMetaFieldName(name) ? name : camelCase(name);
+  const unescapedPropertyName = isMetaFieldName(name) ? name : name;
   const propertyName = escapeIdentifierIfNeeded(unescapedPropertyName);
 
   const type = field.type;
@@ -59,13 +58,13 @@ export function propertyFromInputField(
 
   const bareTypeName = isCompositeType(bareType)
     ? join(
-        [
-          namespace,
-          parentTraitName,
-          escapeIdentifierIfNeeded(pascalCase(Inflector.singularize(name)))
-        ],
-        "."
-      )
+      [
+        namespace,
+        parentTraitName,
+        escapeIdentifierIfNeeded(Inflector.singularize(name))
+      ],
+      "."
+    )
     : undefined;
   const typeName = typeNameFromGraphQLType(
     context,
@@ -100,13 +99,13 @@ export function propertyFromLegacyField(
 
   const bareTypeName = isCompositeType(bareType)
     ? join(
-        [
-          namespace,
-          parentTraitName,
-          escapeIdentifierIfNeeded(pascalCase(Inflector.singularize(name)))
-        ],
-        "."
-      )
+      [
+        namespace,
+        parentTraitName,
+        escapeIdentifierIfNeeded(Inflector.singularize(name))
+      ],
+      "."
+    )
     : undefined;
   const typeName = typeNameFromGraphQLType(
     context,
