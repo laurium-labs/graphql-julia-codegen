@@ -1,14 +1,18 @@
-#!/usr/bin/env ts-node
-
 import Command from '@oclif/command'
 
-export class MyCommand extends Command {
+export class CLI extends Command {
     static description = 'description of this example command'
 
+    static flags = {
+        source: {
+            name: 'source file/folder',
+
+        }
+    }
+
     async run() {
-        console.log('running my command')
+        console.log('running my command!')
     }
 }
 
-
-    // .catch(require('@oclif/errors/handle'))
+export default CLI
