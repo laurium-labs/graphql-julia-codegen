@@ -1,19 +1,9 @@
 import {
   parse,
-  GraphQLString,
-  GraphQLList,
-  GraphQLNonNull,
-  GraphQLEnumType,
-  GraphQLCompositeType,
-  GraphQLObjectType
 } from "graphql";
 
 import {
   generateSource,
-  resultDeclaration,
-  traitDeclarationForFragment,
-  traitDeclarationForSelectionSet,
-  typeDeclarationForGraphQLType
 } from "../codeGeneration";
 
 import { loadSchema } from "apollo-codegen-core/lib/loading";
@@ -107,10 +97,6 @@ describe("Scala code generation", function () {
         }
       `);
 
-      //
-
-      // classDeclarationForOperation(generator, operations["Hero"]);
-      // expect(generator.output).toMatchSnapshot();
       expect(generateSource(context)).toMatchSnapshot();
 
     });

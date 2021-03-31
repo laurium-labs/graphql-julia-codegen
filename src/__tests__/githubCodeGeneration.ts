@@ -21,7 +21,7 @@ import {
 import * as fs from 'fs';
 
 
-describe("Scala code generation", function () {
+describe("Julia code generation", function () {
   let generator: CodeGenerator;
   let resetGenerator;
   let compileFromSource: (source: string) => LegacyCompilerContext;
@@ -75,7 +75,6 @@ describe("Scala code generation", function () {
       );
 
       fs.writeFile(`./GithubGraphQL/src/generated/${Object.keys(context.operations)[0]}.jl`, generateSource(context), () => { })
-      //
 
       expect(generateSource(context)).toMatchSnapshot();
     });
