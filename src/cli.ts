@@ -1,27 +1,14 @@
 #!/usr/bin/env ts-node
 
-import * as fs from 'fs'
-import { Command, flags } from '@oclif/command'
+import Command from '@oclif/command'
 
-class LS extends Command {
-    static flags = {
-        version: flags.version(),
-        help: flags.help(),
-        // run with --dir= or -d=
-        dir: flags.string({
-            char: 'd',
-            default: process.cwd(),
-        }),
-    }
+export class MyCommand extends Command {
+    static description = 'description of this example command'
 
     async run() {
-        const { flags } = this.parse(LS)
-        let files = fs.readdirSync(flags.dir)
-        for (let f of files) {
-            this.log(f)
-        }
+        console.log('running my command')
     }
 }
 
-LS.run()
+
     // .catch(require('@oclif/errors/handle'))

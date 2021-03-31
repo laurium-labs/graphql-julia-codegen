@@ -1,14 +1,14 @@
 {
-  "extends": "./tsconfig.base",
   "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./lib"
+    "declaration": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "target": "es2017"
   },
   "include": [
-    "./src/**/*"
-  ],
-  "exclude": [
-    "**/__tests__/*",
-    "**/__mocks__/*"
+    "src/**/*"
   ]
 }

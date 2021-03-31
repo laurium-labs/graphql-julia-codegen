@@ -28,7 +28,7 @@ import {
   LegacyCompilerContext
 } from "apollo-codegen-core/lib/compiler/legacyIR";
 
-import fs from 'fs'
+import * as fs from 'fs';
 
 
 describe("Scala code generation", function () {

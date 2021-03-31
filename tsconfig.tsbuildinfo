@@ -267,8 +267,8 @@
         "affectsGlobalScope": false
       },
       "./src/cli.ts": {
-        "version": "83463cdaf55e9374411be65ab9c25a0bf5f2606ae6b9221dd6d34be927e72494",
-        "signature": "5b23594f8f339d6cb7fd7c810a74675de8fea67d6cadef59a1b07b18cc33fa7c",
+        "version": "5f881652e37894a638f47c7e419ab1330366ebca36eb9324db551a41df67036d",
+        "signature": "63d34d681a674784ddef896cb5e866038b126c2b1a7474ce457ccd463ef422e9",
         "affectsGlobalScope": false
       },
       "./node_modules/graphql/version.d.ts": {
@@ -817,8 +817,8 @@
         "affectsGlobalScope": false
       },
       "./src/index.ts": {
-        "version": "2614c64301c02a2f43e83120bba9cd14989449f5fca327b09b436f5cac57be8d",
-        "signature": "f676203f2250c0dda79590344814825a286922d370a966248b09eb670200cf5c",
+        "version": "3ad9fc8462f97d1d9f83cba0e27f8fac74161c3c405de1f03b3ea6718d9a38c3",
+        "signature": "f667f6b1d66ba55f0dcd27f5ff050063fecfe289bad00e8c5d48344a775c1439",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/node/globals.d.ts": {
@@ -1893,8 +1893,7 @@
         "./node_modules/graphql/utilities/typeinfo.d.ts"
       ],
       "./src/cli.ts": [
-        "./node_modules/@oclif/command/lib/index.d.ts",
-        "./node_modules/@types/node/fs.d.ts"
+        "./node_modules/@oclif/command/lib/index.d.ts"
       ],
       "./src/codegeneration.ts": [
         "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
@@ -1908,7 +1907,8 @@
         "./src/values.ts"
       ],
       "./src/index.ts": [
-        "./src/codegeneration.ts"
+        "./node_modules/@oclif/command/lib/index.d.ts",
+        "./node_modules/@types/node/fs.d.ts"
       ],
       "./src/language.ts": [
         "./node_modules/apollo-codegen-core/lib/compiler/legacyir.d.ts",
@@ -2736,14 +2736,14 @@
         "./node_modules/graphql/type/schema.d.ts",
         "./node_modules/graphql/utilities/typeinfo.d.ts"
       ],
+      "./src/cli.ts": [
+        "./node_modules/@oclif/command/lib/index.d.ts"
+      ],
       "./src/codegeneration.ts": [
         "../../node_modules/graphql/index.d.ts",
         "../apollo-codegen-core/lib/compiler/legacyir.d.ts",
         "../apollo-codegen-core/lib/utilities/codegenerator.d.ts",
         "./src/language.ts"
-      ],
-      "./src/index.ts": [
-        "./src/codegeneration.ts"
       ],
       "./src/language.ts": [
         "../apollo-codegen-core/lib/compiler/legacyir.d.ts",

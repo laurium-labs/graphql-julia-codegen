@@ -32,13 +32,20 @@
     "ts-jest": "^26.5.4"
   },
   "devDependencies": {
-    "graphql": "15.2.0",
-    "typescript": "4.2.3",
+    "@types/inflected": "1.1.29",
     "@types/jest": "24.9.1",
-    "@types/inflected": "1.1.29"
+    "graphql": "15.2.0",
+    "typescript": "4.2.3"
   },
   "scripts": {
     "test": "jest"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "oclif": {
+    "bin": "mynewcli"
   },
   "jest": {
     "preset": "ts-jest",
