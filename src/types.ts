@@ -3,13 +3,11 @@ import {
   GraphQLInt,
   GraphQLFloat,
   GraphQLBoolean,
-  GraphQLID,
   GraphQLScalarType,
   isAbstractType,
   isNonNullType,
   isListType,
   isScalarType,
-  isEnumType
 } from "graphql";
 import { LegacyCompilerContext } from "apollo-codegen-core/lib/compiler/legacyIR";
 import { GraphQLType } from "graphql";
@@ -63,33 +61,9 @@ export function typeNameFromGraphQLType(
         isInputObject
       ) +
       "}";
-    // if (isInputObject) {
-    //   typeName =
-    //     "Seq[" +
-    //     typeNameFromGraphQLType(
-    //       context,
-    //       type.ofType,
-    //       bareTypeName,
-    //       undefined,
-    //       isInputObject
-    //     ) +
-    //     "]";
-    // } else {
-    //   typeName =
-    //     "scala.scalajs.js.Array[" +
-    //     typeNameFromGraphQLType(
-    //       context,
-    //       type.ofType,
-    //       bareTypeName,
-    //       undefined,
-    //       isInputObject
-    //     ) +
-    //     "]";
-    // }
+
   } else if (isScalarType(type)) {
     typeName = typeNameForScalarType(context, type);
-    // } else if (isEnumType(type)) {
-    //   typeName = "AbstractString";
   } else {
     typeName = bareTypeName || type.name;
   }

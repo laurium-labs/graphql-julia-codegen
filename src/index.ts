@@ -1,17 +1,35 @@
 import { Command, flags } from '@oclif/command'
-import { Input } from '@oclif/parser/lib/args'
 import { compileToLegacyIR } from 'apollo-codegen-core/lib/compiler/legacyIR';
 import { loadSchema } from 'apollo-codegen-core/lib/loading';
-import { DefinitionNode, DocumentNode, GraphQLSchema, isTypeDefinitionNode, Kind, ObjectTypeDefinitionNode, OperationDefinitionNode, Source, TypeDefinitionNode } from 'graphql';
+import { DefinitionNode, OperationDefinitionNode, Source } from 'graphql';
 
-import { extractGraphQLDocumentsFromJuliaStrings } from './codegen'
 
 import { generateSource } from './codeGeneration'
-import { formatDiagnostic } from 'typescript';
-import { FileSet } from 'apollo-language-server/lib/fileSet';
 import { promises } from 'fs'
 import { GraphQLDocument } from 'apollo-language-server/lib/document';
 const { resolve } = require('path');
+
+function extractGraphQLDocumentsFromJuliaStrings(
+    text: string
+): GraphQLDocument[] | null {
+
+
+    const documents: GraphQLDocument[] = [];
+
+    const searchText = `gql"""`
+
+    let start
+    while ((start = text.search(searchText)) != -1) {
+        let end = text.substring(start + searchText.length).search(`"""`)
+        documents.push(new GraphQLDocument(new Source(text.substring(start + searchText.length, end + start + searchText.length))))
+        text = text.substring(end + start + searchText.length)
+    }
+
+
+    if (documents.length < 1) return null;
+
+    return documents;
+}
 
 async function* getFiles(dir: string): any {
     const dirents = await promises.readdir(dir, { withFileTypes: true });
@@ -30,10 +48,9 @@ function isObjectTypeDefinitionNode(node: DefinitionNode): node is OperationDefi
 }
 
 class GraphQLJuliaCodegen extends Command {
-    static description = 'describe the command here'
+    static description = 'This utility generates Julia Types from GraphQL Operations and the GraphQL Schema.'
 
     static flags = {
-        // add --version flag to show CLI version
         version: flags.version({ char: 'v' }),
         help: flags.help({ char: 'h' }),
         localSchemaFile: flags.string({ description: 'localSchemaFile', required: true }),
@@ -42,7 +59,7 @@ class GraphQLJuliaCodegen extends Command {
     }
 
     async run() {
-        const { args, flags } = this.parse(GraphQLJuliaCodegen)
+        const { flags } = this.parse(GraphQLJuliaCodegen)
 
         const sources: GraphQLDocument[] = []
         for await (const f of getFiles(flags.source)) {
@@ -79,7 +96,6 @@ class GraphQLJuliaCodegen extends Command {
                 docCount++
 
                 await promises.writeFile(`${flags.destination}/${name}`, output)
-                //console.log(output)
             }
 
 

@@ -1,19 +1,9 @@
 import {
-  parse,
-  GraphQLString,
-  GraphQLList,
-  GraphQLNonNull,
-  GraphQLEnumType,
-  GraphQLCompositeType,
-  GraphQLObjectType
+  parse
 } from "graphql";
 
 import {
-  generateSource,
-  resultDeclaration,
-  traitDeclarationForFragment,
-  traitDeclarationForSelectionSet,
-  typeDeclarationForGraphQLType
+  generateSource
 } from "../codeGeneration";
 
 import { loadSchema } from "apollo-codegen-core/lib/loading";
