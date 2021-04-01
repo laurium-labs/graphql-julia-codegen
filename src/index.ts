@@ -1,12 +1,12 @@
 import { Command, flags } from '@oclif/command'
 import { compileToLegacyIR } from 'apollo-codegen-core/lib/compiler/legacyIR';
-import { loadSchema } from 'apollo-codegen-core/lib/loading';
-import { DefinitionNode, OperationDefinitionNode, Source } from 'graphql';
+import { buildClientSchema, DefinitionNode, GraphQLSchema, OperationDefinitionNode, Source } from 'graphql';
 
 
 import { generateSource } from './codeGeneration'
-import { promises } from 'fs'
+import { promises, existsSync, readFileSync } from 'fs'
 import { GraphQLDocument } from 'apollo-language-server/lib/document';
+import { ToolError } from 'apollo-language-server';
 const { resolve, join } = require('path');
 
 function extractGraphQLDocumentsFromJuliaStrings(
@@ -43,6 +43,20 @@ async function* getFiles(dir: string): any {
     }
 }
 
+function loadSchema(schemaPath: string): GraphQLSchema {
+    if (!existsSync(schemaPath)) {
+        throw new ToolError(`Cannot find GraphQL schema file: ${schemaPath}`);
+    }
+    const schemaData = JSON.parse(readFileSync(schemaPath, 'utf-8'));
+
+    if (!schemaData.data && !schemaData.__schema) {
+        throw new ToolError(
+            "GraphQL schema file should contain a valid GraphQL introspection query result"
+        );
+    }
+    return buildClientSchema(schemaData.data ? schemaData.data : schemaData);
+}
+
 function isObjectTypeDefinitionNode(node: DefinitionNode): node is OperationDefinitionNode {
     return node.kind === 'OperationDefinition'
 }
@@ -69,9 +83,7 @@ class GraphQLJuliaCodegen extends Command {
                 sources.push(...s)
         }
 
-        const path = require.resolve(join(__dirname, flags.localSchemaFile))
-
-        const schema = loadSchema(path)
+        const schema = loadSchema(flags.localSchemaFile)
 
 
         let docCount = 0
