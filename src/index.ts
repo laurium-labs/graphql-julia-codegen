@@ -7,7 +7,7 @@ import { DefinitionNode, OperationDefinitionNode, Source } from 'graphql';
 import { generateSource } from './codeGeneration'
 import { promises } from 'fs'
 import { GraphQLDocument } from 'apollo-language-server/lib/document';
-const { resolve } = require('path');
+const { resolve, join } = require('path');
 
 function extractGraphQLDocumentsFromJuliaStrings(
     text: string
@@ -69,7 +69,7 @@ class GraphQLJuliaCodegen extends Command {
                 sources.push(...s)
         }
 
-        const path = require.resolve("../" + flags.localSchemaFile)
+        const path = require.resolve(join(__dirname, flags.localSchemaFile))
 
         const schema = loadSchema(path)
 
