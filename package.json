@@ -1,7 +1,7 @@
 {
   "name": "graphql-julia-codegen",
   "description": "Generate Julia Types from GraphQL operations/schema",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Mark Halonen",
   "license": "MIT",
   "repository": {
