@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/7853605/113448559-16cad300-93ca-11eb-94cd-9505b88590ef.png)
 
 
-This is a cli that takes GraphQL queries and a GraphQL schema and generates Julia Named Tuples.
+This is a cli that takes GraphQL queries and a GraphQL schema and generates Julia Named Tuples. [Blog Post](https://www.lauriumlabs.com/blog/julia-code-generation-with-graphql)
 
 ### Usage
 - `npm install -g graphql-julia-codegen@latest`
