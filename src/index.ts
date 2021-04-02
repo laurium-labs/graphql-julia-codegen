@@ -95,6 +95,7 @@ class GraphQLJuliaCodegen extends Command {
     }
 
     async run() {
+        
         const { flags } = this.parse(GraphQLJuliaCodegen)
 
         const sources: GraphQLDocument[] = []
@@ -110,7 +111,7 @@ class GraphQLJuliaCodegen extends Command {
             // const headers = {}
             let headers: { [key: string]: string } = {}
 
-            let real: string[] = (flags.header as unknown as string[])
+            let real: string[] = (flags.header as unknown as string[]) || []
 
             real.forEach((s: string) => {
                 const ob = JSON.parse(s)
@@ -136,7 +137,6 @@ class GraphQLJuliaCodegen extends Command {
             console.log('could not resolve GraphQL schema, not generating code')
             return
         }
-
 
         let docCount = 0
         for (let doc of sources) {
