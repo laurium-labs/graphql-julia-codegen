@@ -6,6 +6,7 @@ import { buildClientSchema, DefinitionNode, GraphQLSchema, OperationDefinitionNo
 import { generateSource } from './codeGeneration'
 import { promises, existsSync, readFileSync } from 'fs'
 import { GraphQLDocument } from 'apollo-language-server/lib/document';
+import { EndpointSchemaProvider } from 'apollo-language-server/lib/providers/schema/endpoint'
 import { ToolError } from 'apollo-language-server';
 const { resolve, join } = require('path');
 
@@ -61,15 +62,36 @@ function isObjectTypeDefinitionNode(node: DefinitionNode): node is OperationDefi
     return node.kind === 'OperationDefinition'
 }
 
+const headersArrayToObject = (
+    arr?: string[]
+): Record<string, string> | undefined => {
+    if (!arr) return;
+    return arr
+        .map(val => JSON.parse(val))
+        .reduce((pre, next) => ({ ...pre, ...next }), {});
+};
+
 class GraphQLJuliaCodegen extends Command {
     static description = 'This utility generates Julia Types from GraphQL Operations and the GraphQL Schema.'
 
     static flags = {
         version: flags.version({ char: 'v' }),
         help: flags.help({ char: 'h' }),
-        localSchemaFile: flags.string({ description: 'localSchemaFile', required: true }),
+        localSchemaFile: flags.string({ description: 'localSchemaFile' }),
+        endpoint: flags.string({ description: 'graphql endpoint to introspect, for example https://api.github.com/graphql' }),
         source: flags.string({ description: 'source file/folder to generate from', required: true }),
         destination: flags.string({ description: 'destination file/folder to generate to', required: true }),
+        header: flags.string({
+            multiple: true,
+            parse: header => {
+                const separatorIndex = header.indexOf(":");
+                const key = header.substring(0, separatorIndex).trim();
+                const value = header.substring(separatorIndex + 1).trim();
+                return JSON.stringify({ [key]: value });
+            },
+            description:
+                "Additional header to send during introspection. May be used multiple times to add multiple headers. NOTE: The `--endpoint` flag is REQUIRED if using the `--header` flag."
+        }),
     }
 
     async run() {
@@ -83,7 +105,37 @@ class GraphQLJuliaCodegen extends Command {
                 sources.push(...s)
         }
 
-        const schema = loadSchema(flags.localSchemaFile)
+        let schema: GraphQLSchema | undefined = undefined
+        if (flags.endpoint) {
+            // const headers = {}
+            let headers: { [key: string]: string } = {}
+
+            let real: string[] = (flags.header as unknown as string[])
+
+            real.forEach((s: string) => {
+                const ob = JSON.parse(s)
+                Object.keys(ob).forEach(k => {
+                    headers[k] = ob[k]
+                })
+            })
+
+            let provider = new EndpointSchemaProvider({
+                name: 'donald duck',
+                url: flags.endpoint,
+                headers
+            })
+            schema = await provider.resolveSchema()
+        } else if (flags.localSchemaFile) {
+            schema = loadSchema(flags.localSchemaFile)
+        } else {
+            console.log('Please provide either the --localSchema="schema.json" OR the --endpoint="https://api.github.com/graphql" flag!')
+            return
+        }
+
+        if (schema === undefined) {
+            console.log('could not resolve GraphQL schema, not generating code')
+            return
+        }
 
 
         let docCount = 0
@@ -107,10 +159,8 @@ class GraphQLJuliaCodegen extends Command {
 
                 docCount++
 
-                await promises.writeFile(`${flags.destination}/${name}`, output)
+                await promises.writeFile(join(flags.destination, name), output)
             }
-
-
         }
 
 
