@@ -15,7 +15,7 @@ import { GraphQLType } from "graphql";
 const builtInScalarMap = {
   [GraphQLString.name]: "AbstractString",
   [GraphQLInt.name]: "Int64",
-  [GraphQLFloat.name]: "Float",
+  [GraphQLFloat.name]: "Float64",
   [GraphQLBoolean.name]: "Boolean",
   // [GraphQLID.name]: "AbstractString"
 };
