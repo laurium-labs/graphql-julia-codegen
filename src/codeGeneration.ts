@@ -150,6 +150,16 @@ export function resultDeclaration(
       generator.printOnNewline('end\n')
 
       return newFieldName
+    } else if (!field.fields?.length) {
+
+      const primitiveFields = field.fields.filter(f => !f.fields?.length)
+      const newFieldName = `${prefix}_${field.fieldName}`
+      generator.printOnNewline(`const ${newFieldName} = @NamedTuple begin`)
+      primitiveFields.forEach(f => generator.printOnNewline(`  ${f.fieldName}::${typeNameFromGraphQLType(generator.context, f.type)}`))
+      generator.printOnNewline('end\n')
+
+      return newFieldName
+
     } else {
       console.log('should never get here!!')
     }
