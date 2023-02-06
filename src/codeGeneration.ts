@@ -190,7 +190,3 @@ function enumerationDeclaration(
   generator.printOnNewline(`@enum ${name} ${values.map(v => v.name).join(" ")}`);
   generator.printNewline();
 }
-
-function isPrimitiveType(test: any) {
-    return test !== Object(test);
-}
