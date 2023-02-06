@@ -190,6 +190,6 @@ function enumerationDeclaration(
   generator.printNewline();
 }
 
-function isPrimitiveType(test) {
+function isPrimitiveType(test: any) {
     return test !== Object(test);
 }
