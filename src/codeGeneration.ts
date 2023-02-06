@@ -153,7 +153,7 @@ export function resultDeclaration(
     } else if (isPrimitiveType(field.type)) {
       return typeNameFromGraphQLType(generator.context, field.type)
     } else {
-      console.log('should never get here!!')
+      console.log('should never get here!! Allegidly this is a primitive type.')
     }
     return ''
   }
