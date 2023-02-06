@@ -6,9 +6,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laurium-labs/graphql-julia-codegen"
+    "url": "git+https://github.com/laurium-labs/graphql-julia-codegen#smallFix"
   },
-  "homepage": "https://github.com/laurium-labs/graphql-julia-codegen",
+  "homepage": "https://github.com/laurium-labs/graphql-julia-codegen@smallFix",
   "bugs": "https://github.com/laurium-labs/graphql-julia-codegen/issues",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
