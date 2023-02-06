@@ -5,7 +5,8 @@ import {
   GraphQLEnumType,
   GraphQLInputObjectType,
   isEnumType,
-  isInputObjectType
+  isInputObjectType,
+  isNamedType
 } from "graphql";
 
 import {
@@ -150,6 +151,8 @@ export function resultDeclaration(
       generator.printOnNewline('end\n')
 
       return newFieldName
+    } else if (isNamedType(field.type)) {
+      return typeNameFromGraphQLType(generator.context, field.type)
     } else {
       console.log('should never get here!!')
     }

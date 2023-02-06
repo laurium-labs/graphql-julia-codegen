@@ -16,7 +16,7 @@ const builtInScalarMap = {
   [GraphQLString.name]: "AbstractString",
   [GraphQLInt.name]: "Int64",
   [GraphQLFloat.name]: "Float64",
-  [GraphQLBoolean.name]: "Boolean",
+  [GraphQLBoolean.name]: "Bool",
   // [GraphQLID.name]: "AbstractString"
 };
 
