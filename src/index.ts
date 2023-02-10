@@ -74,7 +74,7 @@ const headersArrayToObject = (
 class GraphQLJuliaCodegen extends Command {
     static description = 'This utility generates Julia Types from GraphQL Operations and the GraphQL Schema.'
 
-    static flags = {
+    static flags : flags.Input<any> = {
         version: flags.version({ char: 'v' }),
         help: flags.help({ char: 'h' }),
         localSchemaFile: flags.string({ description: 'localSchemaFile' }),
